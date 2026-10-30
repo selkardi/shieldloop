@@ -1,0 +1,72 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-33013
+id: 15_33013
+objet: inspections détaillées initiales des tunnels de la Croix-Rousse et Sous Fourvière et mise en sécurité au profit de la Métropole à Lyon (rectificatif)
+filename: BOAMP-J-AO_2015_064003
+famille: JOUE
+code_departement: 69
+code_departement_prestation: 69
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-04-21
+nomacheteur: Métropole de Lyon
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: RECTIFICATIF
+descripteur_code: 72
+descripteur_code: 274
+dc: 72
+dc: 274
+descripteur_libelle: Contrôle technique
+descripteur_libelle: Prestations de services
+type_avis: 5
+type_avis: 1
+annonce_lie: 15-12812
+annonces_anterieures.REFERENCE.IDWEB: 15-12812
+annonces_anterieures.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_PUBLICATION: 2015-03-02
+annonces_anterieures.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_FIN_DIFFUSION: 2015-04-13
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-33013
+gestion.MARCHE.ANNONCE_ANTERIEUR.REFERENCE.IDWEB: 15-12812
+gestion.MARCHE.ANNONCE_ANTERIEUR.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_PUBLICATION: 2015-03-02
+gestion.MARCHE.ANNONCE_ANTERIEUR.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_FIN_DIFFUSION: 2015-04-13
+gestion.NOM_HTML: 15-33013.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-21
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 72
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Contrôle technique
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 274
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Prestations de services
+gestion.INDEXATION.DEP_PUBLICATION: 69
+gestion.INDEXATION.DEP_PRESTATION: 69
+gestion.INDEXATION.RESUME_OBJET: inspections détaillées initiales des tunnels de la Croix-Rousse et Sous Fourvière et mise en sécurité au profit de la Métropole à Lyon (rectificatif)
+donnees.IDENTITE.DENOMINATION: Métropole de Lyon
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 20 rue du Lac CS 33569
+donnees.IDENTITE.CP: 69505
+donnees.IDENTITE.VILLE: Lyon cedex 03
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.URL: http://marches.grandlyon.com
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://marches.grandlyon.com
+donnees.OBJET.TITRE_MARCHE: Inspections détaillées initiales et rédaction du dossier d'ouvrage pour les tunnels de la Croix Rousse et sous Fourvière - Lot no 1 Génie Civil - Lot no 2 : Equipements
+donnees.OBJET.OBJET_COMPLET: Il s'agit de réaliser les inspections détaillées initiales des tunnels de la Croix-rousse et sous Fourvière qui ont fait et font l'objet de travaux lourds de rénovation et de mise en sécurité. Ces prestations interviennent dans le contexte de la réalisation de la nouvelle ITSEAO et plus particulièrement du fascicule 40 appliquable aux tunnels.La prestation comprend la réalisation des dossiers d'ouvrage pour ces 2 tunnels conformément à l'ITSEOA. L'opération est allotie et est traitée par marché séparés : Lot 1 Génie Civil et lot 2 Equipements.
+donnees.OBJET.CPV.PRINCIPAL: 71631000
+donnees.RECTIF.ANNONCE_ANTERIEUR.REFERENCE.IDWEB: 15-12812
+donnees.RECTIF.ANNONCE_ANTERIEUR.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_PUBLICATION: 2015-03-02
+donnees.RECTIF.ANNONCE_ANTERIEUR.REFERENCE_PUBLICATION.PUBLICATION_ELECTRONIQUE.DATE_FIN_DIFFUSION: 2015-04-13
+donnees.RECTIF.MODIFICATION.RUB_INIT: Section IV Procédure - IV 3.4 Date limite de réception des offres ou des demandes de participation
+donnees.RECTIF.MODIFICATION.TXT_INIT: 2015-04-13T16:00:00+01:00
+donnees.RECTIF.MODIFICATION.LIRE: 2015-04-20T16:00:00+01:00
+donnees.RECTIF.MODIFICATION.RUB_INIT: Section IV Procédure - IV 3.8 Modalités d'ouverture des offres
+donnees.RECTIF.MODIFICATION.TXT_INIT: 2015-04-14T09:00:00+01:00
+donnees.RECTIF.MODIFICATION.LIRE: 2015-04-21T09:00:00+01:00
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Date d'envoi du présent avis au JOUE et au BOAMP : 4 mars 2015.
+url_avis: https://www.boamp.fr/pages/avis/?q=idweb:15-33013

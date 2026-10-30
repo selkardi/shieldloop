@@ -1,0 +1,74 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31409
+id: 15_31409
+objet: construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015 au centre hospitalier de La Rochefoucauld
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 16
+code_departement_prestation: 16
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-30
+datelimitereponse: 2015-04-30T15:00:00+00:00
+nomacheteur: Hopital la rochefoucauld
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 163
+dc: 163
+descripteur_libelle: Informatique (prestations de services)
+type_marche: FOURNITURES
+type_marche_facette: Fournitures
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31409
+gestion.NOM_HTML: 15-31409.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-30T16:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-30
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 72
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services informatiques
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 163
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Informatique (prestations de services)
+gestion.INDEXATION.DEP_PUBLICATION: 16
+gestion.INDEXATION.DEP_PRESTATION: 16
+gestion.INDEXATION.RESUME_OBJET: construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015 au centre hospitalier de La Rochefoucauld
+donnees.IDENTITE.DENOMINATION: Hopital la rochefoucauld
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Place du champ de foire
+donnees.IDENTITE.CP: 16110
+donnees.IDENTITE.VILLE: La rochefoucauld
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: http://hopital-larochefoucauld.e-marchespublics.com
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://hopital-larochefoucauld.e-marchespublics.com
+donnees.OBJET.TITRE_MARCHE: Fourniture et mise en oeuvre d'architectures réseaux et voix et prestations associées
+donnees.OBJET.OBJET_COMPLET: A l'occasion de la construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions dont la livraison est prévue en 2015, le centre hospitalier de la rochefoucauld souhaite faire évoluer ses architectures réseau et voix. Cette évolution permettra de supporter l'agrandissement du ch, d'implémenter des nouvelles technologies comme la voix sur ip, de généraliser la couverture wifi tout en améliorant la qualité de service.
+donnees.OBJET.CPV.PRINCIPAL: 32400000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Centre hospitalier place du champ de foire
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 16110
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: La rochefoucauld
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR531
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: Option no1 - analyse du réseau Option no2-click to call Option no3-url vers l'annuaire téléphonique de professionnels Option no4- solution d'extraction
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 3
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 48
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.@ORDRE: 1
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.#text: Prix 40%
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.@ORDRE: 2
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.#text: Valeur technique 60%
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-30T16:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Une avance est prévue.son montant est égal à 5% du marché. Une garantie à première demande pour le remboursement de l'avance est exigée.
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Le délai global de paiement des prestations est fixé à 50 jours.
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: La même entreprise peut présenter pour le marché plusieurs offres en agissant à la fois :&#8226;en qualité de candidat individuel et de membre d'un ou plusieurs groupements&#8226;en qualité de membre de plusieurs groupements.
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Le formulaire dc1 'lettre de candidature', disponible sur www.economie.gouv.fr/daj/formulaires-declaration-candidat,dûment complété, daté et signé par le candidat. Dans le cas où le candidat représente un groupement d'entreprises, le formulaire dc1 est signé par tous les membres du groupement.
+donnees.CONDITION_PARTICIPATION.CAP_ECO: Le formulaire dc2 'déclaration du candidat', disponi

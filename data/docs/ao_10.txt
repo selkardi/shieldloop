@@ -1,0 +1,82 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31538
+id: 15_31538
+objet: fioul domestique et carburants à Aix En Provence
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 13
+code_departement_prestation: 13
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-14
+datelimitereponse: 2015-04-14T11:00:00+00:00
+nomacheteur: groupements de commandes
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 52
+dc: 52
+descripteur_libelle: Carburant et combustible
+type_marche: FOURNITURES
+type_marche_facette: Fournitures
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31538
+gestion.NOM_HTML: 15-31538.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-14T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-14
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 11
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Hydrocarbures naturels
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 14
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Produits divers des industries extractives
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 52
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Carburant et combustible
+gestion.INDEXATION.DEP_PUBLICATION: 13
+gestion.INDEXATION.DEP_PRESTATION: 13
+gestion.INDEXATION.RESUME_OBJET: fioul domestique et carburants à Aix En Provence
+donnees.IDENTITE.DENOMINATION: groupements de commandes
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Centre Hospitalier MontperrinBâtiment administratif 2ème étage109 avenue du petit Barthélémy
+donnees.IDENTITE.CP: 13617
+donnees.IDENTITE.VILLE: Aix en Provence cedex1
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://www.klekoon.com
+donnees.OBJET.TITRE_MARCHE: Fioul domestique et carburants
+donnees.OBJET.OBJET_COMPLET: Fioul domestique et carburants
+donnees.OBJET.CPV.PRINCIPAL: 09100000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Etablissements adhérents au Groupement (dépts 13, 26, 30 et 84)
+donnees.OBJET.DUREE_DELAI.DATE_DEBUT: 2015-07-01
+donnees.OBJET.DUREE_DELAI.DATE_FIN: 2018-06-30
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: Lot FC.01
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Fioul domestique
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 09100000
+donnees.OBJET.LOTS.LOT.NUM: 2
+donnees.OBJET.LOTS.LOT.INTITULE: Lot FC.02
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Carburants
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-14T12:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Aucun cautionnement ni garantie
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Les prestations seront financées selon les crédits inscrits à l'Etat Prévisionnel des Recettes et des Dépenses (EPRD) de chaque établissement. Paiement par virement administratif. Conformément à l'article 98 du CMP, le délai global de paiement est de 50 jours pour les établissements de santé et de 30 jours pour les établissements à caractère social et médico-social et administrations.
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: L'offre sera présentée par une seule entreprise ou par un groupement. En cas de groupement, la forme souhaitée par le pouvoir adjudicateur est un groupement solidaire avec mandataire solidaire. Si le groupement attributaire du marché est d'une forme différente, il pourra se voir contraint d'assurer sa transformation pour se conformer au souhait du pouvoir adjudicateur. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois en qualité de candidat individuel et de membre d'un ou plusieurs groupements ou en qualité de m
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Formulaire DC 2 à compléter sous peine d'irrecevabilité
+donnees.CONDITION_PARTICIPATION.CAP_ECO: Formulaire DC 2 à compléter sous peine d'irrecevabilité
+donnees.CONDITION_PARTICIPATION.CAP_TECH: Formulaire DC 2 à compléter sous peine d'irrecevabilité
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.DENOMINATION: TRIBUNAL ADMINISTRATIF DE MARSEILLE
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.ADRESSE: 22-24 rue Breteuil
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.CP: 13006
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.VILLE: Marseille
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.TEL: [retiré]
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES

@@ -1,0 +1,82 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31737
+id: 15_31737
+objet: conception - réalisation d'une salle de musiques actuelles sur le site de la constance à Aix en Provence
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 13
+code_departement: 4
+code_departement: 5
+code_departement: 83
+code_departement: 84
+code_departement: 30
+code_departement_prestation: 13
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-03
+datelimitereponse: 2015-04-02T23:00:00+00:00
+nomacheteur: SPLA 'Pays d'Aix Territoires'
+perimetre: DIRECTIVE-18
+type_procedure: RESTREINT
+procedure_libelle: Procédure Restreinte
+procedure_categorise: RESTREINT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 33
+dc: 33
+descripteur_libelle: Bâtiment
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31737
+gestion.NOM_HTML: 15-31737.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-03T00:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-03
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 33
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Bâtiment
+gestion.INDEXATION.DEP_PUBLICATION: 13
+gestion.INDEXATION.DEP_PUBLICATION: 4
+gestion.INDEXATION.DEP_PUBLICATION: 5
+gestion.INDEXATION.DEP_PUBLICATION: 83
+gestion.INDEXATION.DEP_PUBLICATION: 84
+gestion.INDEXATION.DEP_PUBLICATION: 30
+gestion.INDEXATION.DEP_PRESTATION: 13
+gestion.INDEXATION.RESUME_OBJET: conception - réalisation d'une salle de musiques actuelles sur le site de la constance à Aix en Provence
+donnees.IDENTITE.DENOMINATION: SPLA 'Pays d'Aix Territoires'
+donnees.IDENTITE.CODE_IDENT_NATIONAL: 52[tel retiré]10
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 2 Rue Lapierre BP 80251
+donnees.IDENTITE.CP: 13608
+donnees.IDENTITE.VILLE: Aix en provence cedex 1
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://www.achatpublic.com/sdm/ent/gen/ent_detail.do?PCSLID=CSL_2015_zfmN3IkIQj
+donnees.ACTIVITE_PRINCIPALE.POUVOIR_ADJUDICATEUR.AUTRE: Société publique locale d'aménagement en vertu de l'article L320 du code de l'urbanisme
+donnees.OBJET.TITRE_MARCHE: Conception - réalisation d'une salle de musiques actuelles sur le site de la constance à Aix en Provence
+donnees.OBJET.OBJET_COMPLET: Le présent marché de conception- réalisation a pour objet la construction sur le site de la Constance ( terrain d'une superficie de 15 900 mètres carrés) à Aix en Provence , d'un équipement ( total surfaces utiles : 3700 mètres carrés soit environ 4300 mètres carrés de surface de plancher (SDP)) comprenant :- une grande salle de 990 mètres carrés ( scène de 200 mètres carrés) = 1500 places débout et 900 places assis/debout.- une salle club de 420 mètres carrés (scène 90 mètres carrés) = 400 places debout et 250 places assises.- un pôle artiste de 380 mètres carrés,
+donnees.OBJET.CPV.PRINCIPAL: 45212225
+donnees.OBJET.CPV.PRINCIPAL: 71000000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Secteur Valcros / Constance, Route de Valcros
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 13100
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Aix en provence
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR82
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 40
+donnees.PROCEDURE.NB_CANDIDATS.NB_OFFRE: 5
+donnees.PROCEDURE.NB_CANDIDATS.LIMITATION_CANDIDATS: Les critères permettant la sélection des 4 candidats admis à concourrir sont 1) Capacités professionnelles et techiques du groupement appréciées au regard - De la qualité des références architecturales présentées ( examen des 5 références de l'architecte): pondération 40 %,- Des qualifications et références techniques de l'équipe de conception dans la réalisation d'ouvrages similaires ( ingénierie TCE, thermique et optimisation énergétique, sécurité incendie, acoustique, scénographie, ingénierie et VRD) : pondération 20 %- Des références des
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 50
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: Prix des prestations
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: Valeur technique
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-03T00:00:00+01:00
+donnees.CONDITION_DELAI.LIMITE_ENVOI_INVIT: 2015-05-04
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Retenue de garantie représentant 5 % de la part travaux du montant du marché.
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: L'opération est financée par le budget de l'opération de la SPLA.Le mode de paiement choisi par la SPLA 'Pays d'Aix Territoires' est le virement bancaire.Le
