@@ -1,0 +1,75 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-33367
+id: 15_33367
+objet: travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tricolore sur le département des Hauts-de-Seine.
+filename: BOAMP-J-AO_2015_064009
+famille: JOUE
+code_departement: 92
+code_departement_prestation: 92
+famille_libelle: Marchés européens
+dateparution: 2015-03-05
+datefindiffusion: 2015-04-15
+datelimitereponse: 2015-04-15T16:00:00+00:00
+nomacheteur: Conseil Général Hauts-de-Seine
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 102
+descripteur_code: 322
+dc: 102
+dc: 322
+descripteur_libelle: Eclairage public
+descripteur_libelle: Signalisation
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-33367
+gestion.NOM_HTML: 15-33367.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-05
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-15T17:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-15
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 102
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Eclairage public
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 322
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Signalisation
+gestion.INDEXATION.DEP_PUBLICATION: 92
+gestion.INDEXATION.DEP_PRESTATION: 92
+gestion.INDEXATION.RESUME_OBJET: travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tricolore sur le département des Hauts-de-Seine.
+donnees.IDENTITE.DENOMINATION: Conseil Général Hauts-de-Seine
+donnees.IDENTITE.CODE_IDENT_NATIONAL: 22920050600157
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Direction de la commande publique
+donnees.IDENTITE.CP: 92015
+donnees.IDENTITE.VILLE: Nanterre cedex
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.OBJET.TITRE_MARCHE: Travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tricolore sur le Département des Hauts-de-Seine
+donnees.OBJET.OBJET_COMPLET: Travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tricolore sur le Département des Hauts-de-Seine. Les spécifications techniques pour la réalisation des travaux sont indiquées au cahier des clauses techniques particulières (CCTP)
+donnees.OBJET.CPV.PRINCIPAL: 45316110
+donnees.OBJET.CPV.PRINCIPAL: 45316200
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Département des Hauts-de-Seine
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR105
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Le présent appel d'offres ouvert est soumis aux dispositions des articles 33 3°al. et 57 à 59 du code des marché publics issu du décret 2006-975 du 1er août 2006 modifié. Les travaux feront l'objet de marchés à bons de commande passés en application de l'article 77 du code des marchés publics. Les travaux seront réglés sur la base de prix unitaires fixés au bordereau des prix propre à chaque lot. Le montant des travaux sont susceptibles de varier dans les limites suivantes : - lot 1 : sans montant minimum annuel et montant maximum annuel 2 000 000 euro(
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: Chaque marché est conclu pour une période initiale de deux (2) ans à compter de sa notification. Il est renouvelable deux fois un (1) an, par tacite reconduction, sans que sa durée totale puisse excéder quatre (4) ans.
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 2
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 24
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tricolore sur le secteur nord du département
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Les travaux prévus sont les suivants :- génie civil et réfections, - fourniture, transport, pose et raccordement de matériel d'éclairage public et de signalisation lumineuse tricolore,- câblerie,- fourniture, pose et raccordement de petits matériels électriques
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45316110
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45316200
+donnees.OBJET.LOTS.LOT.DUREE_MOIS: 24
+donnees.OBJET.LOTS.LOT.INFO_COMPL: Reconduction tacite deux fois un an, le pouvoir adjudicateur doit, pour ne pas reconduire le marché, se prononcer par écrit, en recommandé avec accusé de réception, en respectant un préavis de quatre mois avant la fin de la durée de validité du marché
+donnees.OBJET.LOTS.LOT.NUM: 2
+donnees.OBJET.LOTS.LOT.INTITULE: travaux d'entretien, d'installation et de modification de l'éclairage public et de la signal

@@ -1,0 +1,121 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-32477
+id: 15_32477
+objet: travaux de mise en accessibilité PMR du restaurant universitaire petit Bouloie à Besançon
+filename: BOAMP-J-AO_2015_063009
+famille: JOUE
+code_departement: 25
+code_departement_prestation: 25
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-03-25
+datelimitereponse: 2015-03-25T11:00:00+00:00
+nomacheteur: CROUS de Besancon
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 53
+descripteur_code: 61
+descripteur_code: 63
+descripteur_code: 87
+descripteur_code: 105
+descripteur_code: 144
+descripteur_code: 222
+descripteur_code: 270
+descripteur_code: 308
+descripteur_code: 309
+descripteur_code: 319
+dc: 53
+dc: 61
+dc: 63
+dc: 87
+dc: 105
+dc: 144
+dc: 222
+dc: 270
+dc: 308
+dc: 309
+dc: 319
+descripteur_libelle: Carrelage
+descripteur_libelle: Chauffage (travaux)
+descripteur_libelle: Cloison, faux plafond
+descripteur_libelle: Démolition
+descripteur_libelle: Electricité
+descripteur_libelle: Gros oeuvre
+descripteur_libelle: Menuiserie
+descripteur_libelle: Plomberie
+descripteur_libelle: Revêtements de sols
+descripteur_libelle: Revêtements muraux
+descripteur_libelle: Sanitaire
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-32477
+gestion.NOM_HTML: 15-32477.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-03-25T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-03-25
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 53
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Carrelage
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 61
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Chauffage (travaux)
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 63
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Cloison, faux plafond
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 87
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Démolition
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 105
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Electricité
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 144
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Gros oeuvre
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 222
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Menuiserie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 270
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Plomberie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 308
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Revêtements de sols
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 309
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Revêtements muraux
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 319
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Sanitaire
+gestion.INDEXATION.DEP_PUBLICATION: 25
+gestion.INDEXATION.DEP_PRESTATION: 25
+gestion.INDEXATION.RESUME_OBJET: travaux de mise en accessibilité PMR du restaurant universitaire petit Bouloie à Besançon
+donnees.IDENTITE.DENOMINATION: CROUS de Besancon
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 38 avenue de l'Observatoire
+donnees.IDENTITE.CP: 25000
+donnees.IDENTITE.VILLE: Besançon
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://www.achatpublic.com/sdm/ent/gen/index.jsp
+donnees.OBJET.OBJET_COMPLET: Travaux de mise en accessibilité PMR du Restaurant universitaire Petit Bouloie
+donnees.OBJET.CPV.PRINCIPAL: 45000000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: 45 avenue de l'observatoire
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 25000
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Besancon
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Travaux de mise en accessibilité
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: Lot 1 : Démolition,GO,Cloisonnement,Faux-plafonds,Menuiserie
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Lot 1 : Démolition,GO,Cloisonnement,Faux-plafonds,Menuiserie
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45000000
+donnees.OBJET.LOTS.LOT.NUM: 2
+donnees.OBJET.LOTS.LOT.INTITULE: Lot 2 : Revêtement de sol carrelé, faïences
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Lot 2 : Revêtement de sol carrelé, faïences
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45430000
+donnees.OBJET.LOTS.LOT.NUM: 3
+donnees.OBJET.LOTS.LOT.INTITULE: Lot 3 : Electricité,PB sanitaire,Chauffage
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Lot 3 : Electricité,PB sanitaire,Chauffage
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45330000
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 40
+donnees.PROCEDURE.CRITERES_ATTRIBUT

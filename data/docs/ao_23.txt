@@ -1,0 +1,63 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-32537
+id: 15_32537
+objet: mission de de maîtrise d'oeuvre relative à la construction d'une armurerie centralisée à Mailly
+filename: BOAMP-J-AO_2015_063009
+famille: JOUE
+code_departement: 10
+code_departement_prestation: 10
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-04-07
+datelimitereponse: 2015-04-07T15:00:00+00:00
+nomacheteur: ESID de Metz
+perimetre: DIRECTIVE-18
+type_procedure: CONCOURS_RESTREINT
+procedure_libelle: Procédure Concours restreint
+procedure_categorise: CONCOURS_RESTREINT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 197
+dc: 197
+descripteur_libelle: Maîtrise d'oeuvre
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-32537
+gestion.NOM_HTML: 15-32537.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-07T16:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-07
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 197
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Maîtrise d'oeuvre
+gestion.INDEXATION.DEP_PUBLICATION: 10
+gestion.INDEXATION.DEP_PRESTATION: 10
+gestion.INDEXATION.RESUME_OBJET: mission de de maîtrise d'oeuvre relative à la construction d'une armurerie centralisée à Mailly
+donnees.IDENTITE.DENOMINATION: ESID de Metz
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Rue du Maréchal LYAUTEY - CS 30 001
+donnees.IDENTITE.CP: 57044
+donnees.IDENTITE.VILLE: Metz cedex 01
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.OBJET.TITRE_MARCHE: MAILLY (10) - CENTAC-Construction d'une armurerie centralisée-Marché de maîtrise d'oeuvre privée-Mission de base+OPC+Missions complémentaires
+donnees.OBJET.OBJET_COMPLET: Le marché est un concours restreint sur esquisse. Il comprend une mission de base - bâtiment neuf - sans études d'exécution, au sens de la loi MOP du 12 juillet 1985 et de son décret d'application no93-1268 du 29 novembre 1993.Sont également confiées au maître d'oeuvre les missions complémentaires suivantes : a) Ordonnancement, Pilotage et Coordination (OPC) ; b) Coordination ou participation à la coordination des actions effectuées par les intervenants extérieurs à la maîtrise d'oeuvre, lorsqu'elle est nécessaire en supplément de la mission d'ordonnancement, pilot
+donnees.OBJET.CPV.PRINCIPAL: 71240000
+donnees.PROCEDURE.NB_CANDIDATS.NB_OFFRE: 3
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_LIBRE: Les candidats, retenus par le représentant du pouvoir adjudicateur, recevront le cahier des charges.Ils devront produire un dossier technique sur la base d'une esquisse.Les critères d'évaluation des projets seront définis dans le règlement de concours.
+donnees.PROCEDURE.MEMBRE_JURY: La composition du jury n'est pas arrêtée à ce jour. Elle sera précisée dans le règlement de concours.
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-07T16:00:00+01:00
+donnees.CONDITION_DELAI.LIMITE_ENVOI_INVIT: 2015-06-01
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.CRITERE_SELECTION: Le présent avis s'adresse à un maître d'oeuvre seul, s'il possède au sein de sa structure toutes les compétences exigées ci-après, ou à une équipe pluridisciplinaire dans le cadre d'un groupement possédant toutes les compétences ci-après et dont le mandataire sera obligatoirement l'architecte.Compétences exigées du candidat ou de l'équipe : -en architecture,-en ingénierie thermique,-en géotechnique,-en économie de la construction,-en ordonnancement, pilotage et coordination (OPC).Pour l'attribution du marché, en cas de groupement, le représent
+donnees.CONDITION_PARTICIPATION.PRESTATION_RESERVEE_OUI: Architecte
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: 2015-PCO001-1
+donnees.CONDITION_ADMINISTRATIVE.RECOMPENSES_LAUREAT: Une prime de 6 500 euro(s) HT sera attribuée à chacun des concurrents ayant remis des prestations complètes et conformes au règlement de concours, après avis du jury et décision du représentant du pouvoir adjudicateur. La prime peut être réduite ou supprimée par le RPA suite aux propositions du jury, en fonction de la qualité des prestations remises, notamment dans le cas où les prestations seraient jugées insuffisantes ou non conformes aux prescriptions demandées. Il est précisé que la prime du lauréat du concours, attributaire du marché, 
+donnees.CONDITION_ADMINISTRATIVE.INDEMNISATION_PARTICIPANTS: La prime sera payée dans un délai maximum de 30 jours, sur présentation d'une facture émise après avis du jury et décision d'attribution du marché par le représentant du pouvoir adjudicateur.
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Contrôle élément

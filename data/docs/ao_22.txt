@@ -1,0 +1,62 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-32416
+id: 15_32416
+objet: extension de l'école maternelle avec création de locaux supplémentaires et rénovation des salles existantes et d'un périscolaire alsh pour 120 à Gambsheim
+filename: BOAMP-J-AO_2015_063003
+famille: JOUE
+code_departement: 67
+code_departement_prestation: 67
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-10
+datelimitereponse: 2015-04-10T11:00:00+00:00
+nomacheteur: Commune de Gambsheim
+perimetre: DIRECTIVE-18
+type_procedure: CONCOURS_RESTREINT
+procedure_libelle: Procédure Concours restreint
+procedure_categorise: CONCOURS_RESTREINT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 197
+dc: 197
+descripteur_libelle: Maîtrise d'oeuvre
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-32416
+gestion.NOM_HTML: 15-32416.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-10T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-10
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 197
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Maîtrise d'oeuvre
+gestion.INDEXATION.DEP_PUBLICATION: 67
+gestion.INDEXATION.DEP_PRESTATION: 67
+gestion.INDEXATION.RESUME_OBJET: extension de l'école maternelle avec création de locaux supplémentaires et rénovation des salles existantes et d'un périscolaire alsh pour 120 à Gambsheim
+donnees.IDENTITE.DENOMINATION: Commune de Gambsheim
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 18 route du rhin
+donnees.IDENTITE.CP: 67760
+donnees.IDENTITE.VILLE: GAMBSHEIM
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.OBJET.TITRE_MARCHE: Concours restreint européen de maîtrise d'½uvre sur esquisse pour l'extension d'une école maternelle et la création d'un périscolaire/alsh conformément aux articles 24, 38, 70 et 74 du code des marchés publics
+donnees.OBJET.OBJET_COMPLET: Extension de l'école maternelle avec création de locaux supplémentaires et rénovation des salles existantes et d'un périscolaire alsh pour 120 enfants, avec aménagement des abords. Surfaces bâties à créer prévues : 830 mètres carrés env. Surfaces à réhabiliter : 405 mètres carrésEnveloppe prévisionnelle des travaux : 2 200 000 ¤ htPlanning : livraison janvier 2018Lieu d'exécution : gambsheim, bas-rhin, france. Marché de maîtrise d'½uvre consécutif au concours :Le marché qui suivra le concours est un marché de service soumis à l'accord sur les marchés publics. L'équ
+donnees.OBJET.CPV.PRINCIPAL: 71200000
+donnees.PROCEDURE.NB_CANDIDATS.NB_MIN_OFFRE: 3
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_LIBRE: - respect des objectifs et des contraintes du programme- qualité architecturale du projet- insertion dans le site- respect des délais et des coûtsAprès analyse des prestations, le jury établira un classement motivé des lauréats. Après négociation avec le ou les lauréats, la personne responsable du marché proposera le lauréat à l'assemblée délibérante de la commune qui décidera de l'attribution du marché de maîtrise d'½uvre.
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-10T12:00:00+01:00
+donnees.CONDITION_DELAI.LIMITE_ENVOI_INVIT: 2015-04-27
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.CRITERE_SELECTION: Le présent avis s'adresse à un maître d'½uvre ou une équipe de maîtrise d'½uvre disposant de compétences en matière d'architecture, de technique et d'économie de la construction nécessaires à l'opération telle qu'envisagée et ayant droit d'exercer en france. Le mandataire sera obligatoirement architecte. Critères de sélection des concurrents :- références professionnelles en matière d'études et de réalisations d'ouvrages de complexité équivalente- garanties et capacités techniques et financières- cohérence de l'équipe
+donnees.CONDITION_PARTICIPATION.PRESTATION_RESERVEE_OUI: Architecte
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: Ecole Verger/ALSH
+donnees.CONDITION_ADMINISTRATIVE.RECOMPENSES_LAUREAT: Indemnités allouées à chaque équipe sous réserve de la conformité et de l'acceptation de leurs prestations : 12 000 ¤ht
+donnees.CONDITION_ADMINISTRATIVE.INDEMNISATION_PARTICIPANTS: Sera précisé dans le règlement de concours
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Dossier de candidature à remettre :Dossier administratif 1ère enveloppe- fiche de présentation faisant office de justification quant aux qualités des candidats et à leur capacité (références, moyens, qualifications) formulaire à retirer obligatoirement au caue du bas-rhin.- lettre de candidature identifiant le candidat ou les membres du groupement candidat y compris le mandataire. (dc1)- déclaration s

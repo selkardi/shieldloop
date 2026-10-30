@@ -1,0 +1,69 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31553
+id: 15_31553
+objet: renforcement de chaussées à Mauguio
+filename: BOAMP-J-AO_2015_062003
+famille: JOUE
+code_departement: 34
+code_departement_prestation: 34
+famille_libelle: Marchés européens
+dateparution: 2015-03-02
+datefindiffusion: 2015-04-22
+datelimitereponse: 2015-04-22T15:00:00+00:00
+nomacheteur: Conseil Général de l'Hérault
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 366
+dc: 366
+descripteur_libelle: Voirie et réseaux divers
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31553
+gestion.NOM_HTML: 15-31553.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-02
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-22T16:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-22
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 366
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Voirie et réseaux divers
+gestion.INDEXATION.DEP_PUBLICATION: 34
+gestion.INDEXATION.DEP_PRESTATION: 34
+gestion.INDEXATION.RESUME_OBJET: renforcement de chaussées à Mauguio
+donnees.IDENTITE.DENOMINATION: Conseil Général de l'Hérault
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Service des Marchés - Hôtel du Département - 1000, rue d'Alco Cedex 4
+donnees.IDENTITE.CP: 34087
+donnees.IDENTITE.VILLE: Montpellier
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: http://www.herault.fr
+donnees.OBJET.TITRE_MARCHE: Rd62 pr01+000 au pr02+400 y compris échangeur de Carnon - renforcement de chaussées - Mauguio
+donnees.OBJET.OBJET_COMPLET: Quantités principales : - Rabotage : 40 000 mètres carrés - Enrobés : 10 500 tonnes
+donnees.OBJET.CPV.PRINCIPAL: 45233220
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Commune de
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 34130
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Mauguio France
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR813
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Marché unique ordinaire
+donnees.OBJET.DUREE_DELAI.DUREE_JOURS: 56
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-22T16:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Aucune garantie financière n'est exigée
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Articles 86 à 111 du Code des marchés publics français. Caractéristiques des prix : Prix unitaires. Modalités de variation des prix : fermes actualisables. Modalité de règlement des comptes : via un système de gestion informatique des marchés. Le délai global de paiement est de 30 jours. Modalités de financements : Marché financé par les ressources propres de la Collectivité
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: Groupement conjoint avec mandataire solidaire. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois : - En qualité de candidats individuels et de membres d'un ou plusieurs groupements ; - En qualité de membres de plusieurs groupements
+donnees.CONDITION_RELATIVE_MARCHE.AUTRES_CONDITIONS_PART_OUI: Le marché débutera à compter de la date fixée par l'ordre de service. Les prestations comportent les conditions d'exécution suivantes : L'attributaire du marché ou lot concerné par une action d'insertion devra réaliser a minima le nombre d'heures d'insertion définies en annexe du CCAP.. Les éléments à caractère environnemental sont décrits dans les documents de la consultation
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Lettre de candidature et habilitation du mandataire par ses co-traitants (DC1 ou forme libre) ; Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire ; Déclaration sur l'honneur pour justifier que le candidat n'entre dans aucun des cas mentionnés à l'article 43 du CMP ; Documents relatifs aux pouvoirs de la personne habilitée à engager le candidat. Par exemple KBis, et le cas échéant, délégation de pouvoir précisant les montants délégués (si la personne signataire est différente de celle(s) désignée(s) au KBis)
+donnees.CONDITION_PARTICIPATION.CAP_ECO: Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les travaux objet du contrat, réalisés au cours des trois derniers exercices disponibles
+donnees.CONDITION_PARTICIPATION.CAP_TECH: Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années ; Liste des travaux exécutés au cours des trois dernières années, appuyée d'attestations de bonne exécution pour les travaux les plus im

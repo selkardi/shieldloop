@@ -1,0 +1,91 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31506
+id: 15_31506
+objet: maintenance des installations de sécurité incendie pour la ville de Blagnac
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 31
+code_departement_prestation: 31
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-14
+datelimitereponse: 2015-04-14T11:00:00+00:00
+nomacheteur: Ville de Blagnac
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 90
+descripteur_code: 196
+descripteur_code: 332
+dc: 90
+dc: 196
+dc: 332
+descripteur_libelle: Détection incendie
+descripteur_libelle: Maintenance
+descripteur_libelle: Sécurité incendie
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31506
+gestion.NOM_HTML: 15-31506.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-14T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-14
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 90
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Détection incendie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 196
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Maintenance
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 332
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Sécurité incendie
+gestion.INDEXATION.DEP_PUBLICATION: 31
+gestion.INDEXATION.DEP_PRESTATION: 31
+gestion.INDEXATION.RESUME_OBJET: maintenance des installations de sécurité incendie pour la ville de Blagnac
+donnees.IDENTITE.DENOMINATION: Ville de Blagnac
+donnees.IDENTITE.CODE_IDENT_NATIONAL: 21310069600011
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 1 PLACE JEAN LOUIS PUIG
+donnees.IDENTITE.CP: 31700
+donnees.IDENTITE.VILLE: BLAGNAC
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.URL: http://www.mairie-blagnac.fr
+donnees.OBJET.TITRE_MARCHE: Maintenance des installations de sécurité incendie pour la ville de Blagnac
+donnees.OBJET.TYPE_MARCHE.SERVICE: 1
+donnees.OBJET.OBJET_COMPLET: Il s'agit de la Maintenance des installations de sécurité incendie comprenant : - Les extincteurs et les R.I.A., - Les alarmes incendie, - Les Systèmes de Sécurité Incendie (S.S.I.), - Les installations de désenfumage, - Les installations d'éclairage de sécurité
+donnees.OBJET.CPV.PRINCIPAL: 50324200
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR623
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Marché séparé à bons de commande avec mini et maxi et un opérateur économique.Les marchés sont conclus pour une période de 1 an à compter du 01/07/2015 ou de la date de notification si celle-ci est postérieure jusqu'au 30/06/2016. Les marchés sont reconductibles pour 3 périodes de un an
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 3
+donnees.OBJET.DUREE_DELAI.DATE_DEBUT: 2015-07-01
+donnees.OBJET.DUREE_DELAI.DATE_FIN: 2016-06-30
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Maintenance des extincteurs et des RIA
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 50324200
+donnees.OBJET.LOTS.LOT.QUANTITE: minimum 10 000.00 Euros maximum 30 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.VALEUR_MIN.@DEVISE: EUR
+donnees.OBJET.LOTS.LOT.VALEUR_MIN.#text: 10000
+donnees.OBJET.LOTS.LOT.VALEUR_MAX.@DEVISE: EUR
+donnees.OBJET.LOTS.LOT.VALEUR_MAX.#text: 30000
+donnees.OBJET.LOTS.LOT.INFO_COMPL: Références et qualifications : Qualification APSAD et NF Service Référentiel I4-NF285 : extincteurs - Service d'installation et de maintenance... Pour chaque certificat précité, le représentant du pouvoir adjudicateur accepte tout moyen de preuve équivalent
+donnees.OBJET.LOTS.LOT.NUM: 2
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Maintenance des alarmes incendie
+donnees.OBJET.LOTS.LOT.QUANTITE: minimum 5 000.00 Euros maximum 20 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.VALEUR_MIN.#text: 5000
+donnees.OBJET.LOTS.LOT.VALEUR_MAX.#text: 20000
+donnees.OBJET.LOTS.LOT.NUM: 3
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Maintenance des SSI
+donnees.OBJET.LOTS.LOT.QUANTITE: minimum 10 000.00 Euros maximum 40 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.VALEUR_MAX.#text: 40000
+donnees.OBJET.LOTS.LOT.INFO_COMPL: Références et qualifications : Qualification APSAD - Référentiel F7 : détection d'incendie et CMSI - Service de 

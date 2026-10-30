@@ -1,0 +1,66 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-33422
+id: 15_33422
+objet: prestations de nettoyage des batiments communautaires à Nancy
+filename: BOAMP-J-AO_2015_064009
+famille: JOUE
+code_departement: 54
+code_departement_prestation: 54
+famille_libelle: Marchés européens
+dateparution: 2015-03-05
+datefindiffusion: 2015-04-14
+datelimitereponse: 2015-04-14T16:00:00+00:00
+nomacheteur: Communauté Urbaine du Grand Nancy
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 239
+dc: 239
+descripteur_libelle: Nettoyage de locaux
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-33422
+gestion.NOM_HTML: 15-33422.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-05
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-14T17:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-14
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 239
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Nettoyage de locaux
+gestion.INDEXATION.DEP_PUBLICATION: 54
+gestion.INDEXATION.DEP_PRESTATION: 54
+gestion.INDEXATION.RESUME_OBJET: prestations de nettoyage des batiments communautaires à Nancy
+donnees.IDENTITE.DENOMINATION: Communauté Urbaine du Grand Nancy
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 22/24, viaduc Kennedy C.O. N° 80036
+donnees.IDENTITE.CP: 54035
+donnees.IDENTITE.VILLE: Nancy Cedex
+donnees.OBJET.TITRE_MARCHE: Prestations de nettoyage des batiments communautaires - relance du lot 4 (Batiments spécifiques à vocation notamment économique et universitaire)
+donnees.OBJET.TYPE_MARCHE.SERVICE: 14
+donnees.OBJET.OBJET_COMPLET: Les prestations sont décomposées en 4 lots mais cette consultation ne concerne que le lot 4 (Batiments spécifiques à vocation notamment économique et universitaire), déclaré sans suite à l'issue de la première procédure d'appel d'offres. Le lot 4, dont les prestations sont décrites au CCTP, comprend : - Galerie ARTEM (4A) : située rue Sergent Blandan à Nancy, - Autres batiments (4B) : différents lieux de l'agglomération , pour des prestations ponctuels, avant ou après des manifestations organisées par la Communauté urbaine. L'estimation annuelle est de 117 056,86 e
+donnees.OBJET.CPV.PRINCIPAL: 90911200
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Agglomération nancéienne
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR411
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Marché unique à bons de commande sans mini et maxi et un opérateur économique.Le marché est conclu pour une période de 12 mois à compter de la notification du contrat. Le marché est reconductible pour 3 périodes de un an
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: Des prestations similaires pourront etre réalisées par le titulaire du marché dans les conditions suivantes (art 35-II.6° du CMP) : La collectivité se réserve le droit de passer des avenants et /ou un marché négocié pour prestations similaires en application de l'article 35 II 6 du Code des marchés publics
+donnees.PROCEDURE.MARCHE_PERIODIQUE_OUI.CALENDRIER_PROCHAINS_AVIS: Courant 2018
+donnees.PUBLICATION_ANTERIEURE.REFERENCE_PUBLICATION.PUBLICATION_JOUE.ANNEE: 2013
+donnees.PUBLICATION_ANTERIEURE.REFERENCE_PUBLICATION.PUBLICATION_JOUE.NUM_PARUTION: 140
+donnees.PUBLICATION_ANTERIEURE.REFERENCE_PUBLICATION.PUBLICATION_JOUE.NUM_ANNONCE: 244206
+donnees.PUBLICATION_ANTERIEURE.REFERENCE_PUBLICATION.PUBLICATION_JOUE.DATE_PUBLICATION: 2013-07-20
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-14T17:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 180
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Garantie à première demande ou caution personnelle et solidaire couvrant 100,000% du montant de l'avance
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Articles 86 à 111 du Code des marchés publics français. Caractéristiques des prix : Prix unitaires. Modalités de variation des prix : Révision Périodique. Annuelle. Une avance de 5,000% sera accordée dans les conditions prévues au contrat. Modalité de règlement des comptes : selon les modalités du C.C.A.G.-F.C.S. Le délai global de paiement est de 30 jours. Modalités de financements : Financement sur fonds propres Budget général
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: Aucune forme de groupement imposée à l'attributaire. Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois : - En qualité de candidats individuels et de membres d'un ou plusieurs groupements ; - En qualité de membres de plusieurs groupements. Un meme prestataire ne pourra pas etre mandataire de plus d'un groupement pour un meme marché
+donnees.CONDITION_RELATIVE_MARCHE.AUTRES_CONDITIONS_PART_OUI: La durée du contrat précité

@@ -1,0 +1,64 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31576
+id: 15_31576
+objet: Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 16
+code_departement_prestation: 16
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-13
+datelimitereponse: 2015-04-13T17:00:00+00:00
+nomacheteur: GrandAngoulême agglomération
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 72
+dc: 72
+descripteur_libelle: Contrôle technique
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31576
+gestion.NOM_HTML: 15-31576.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-13T18:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-13
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 72
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Contrôle technique
+gestion.INDEXATION.DEP_PUBLICATION: 16
+gestion.INDEXATION.DEP_PRESTATION: 16
+gestion.INDEXATION.RESUME_OBJET: Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême
+donnees.IDENTITE.DENOMINATION: GrandAngoulême agglomération
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 25 boulevard Besson Bey
+donnees.IDENTITE.CP: 16023
+donnees.IDENTITE.VILLE: Angoulême cedex
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: http://www.grandangouleme.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://marchespublics.grandangouleme.fr
+donnees.OBJET.TITRE_MARCHE: Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême.
+donnees.OBJET.TYPE_MARCHE.SERVICE: 12
+donnees.OBJET.OBJET_COMPLET: Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau ferroviaire à Angoulême.
+donnees.OBJET.CPV.PRINCIPAL: 71000000
+donnees.OBJET.CPV.PRINCIPAL: 71500000
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Le GrandAngoulême prépare des aménagements connexes à la gare qui permettront : - d'améliorer l'accès à la gare pour les usagers extérieurs à l'agglomération : voiries et stationnements mais aussi l'accessibilité du pôle multimodal et des quais de la gare ;- de créer un véritable pôle multimodal entre les trains régionaux, les cars interurbains et SNCF, les bus, les taxis, la future passerelle, les vélos... ;- de mieux accueillir les voyageurs avec une capacité hôtelière renforcée, la mise à disposition de divers services et de locaux d'entreprise.A l'h
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: En application de l'article 35-II 6° du code des marchés publics, le pouvoir adjudicateur se réserve le droit de recourir à des marchés négociés pour la réalisation de prestations similaires à celles qui ont été confiées au titulaire dans le cadre du présent marché. Ces marchés devront être conclus dans un délai de 3 ans à compter de la notification du présent marché et prendront fin au terme de celui-ci.
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-13T18:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Il n'est pas exigé de cautionnement ni de retenue de garantie.
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Le budget de la collectivité financera les dépenses afférentes au marché. L'opération bénéficie de subventions dans le cadre: - contrat de projets État-région (CPER) - Subvention RFF .Le règlement des dépenses se fera par mandat administratif dans un délai maximum de 30 jours à compter de la réception de la facture par l'ordonnateur. En application de l'article 87 du code des marchés publics, le titulaire bénéficie d'une avance égale à 5% du montant TTC de la commande ou du marché, sauf renoncement indiqué à l'acte d'engagement. Le versement de ce
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: La forme juridique des groupements d'opérateurs pourra être le groupement solidaire ou conjoint. En cas de groupement conjoint, la forme imposée par le pouvoir adjudicateur est le groupement conjoint avec solidarité du mandataire envers les membres du groupement afin de satisfaire la bonne exécution du marché.En cas d'erreur des candidats quant à la forme juridique de leur groupement, leur offre ne sera acceptée que sous réserve qu'ils assurent la transformation nécessaire lors de la mise

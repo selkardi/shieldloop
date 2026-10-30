@@ -1,0 +1,25 @@
+ao_01.txt	5000 car.	idweb: 15-31501 | id: 15_31501 | objet: concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne | filena
+ao_02.txt	5000 car.	idweb: 15-30976 | id: 15_30976 | objet: Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à Vill
+ao_03.txt	5000 car.	idweb: 15-31036 | id: 15_31036 | objet: Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de Toulouse
+ao_04.txt	5000 car.	idweb: 15-31553 | id: 15_31553 | objet: renforcement de chaussées à Mauguio | filename: BOAMP-J-AO_2015_062003 | famille: JOUE | code_departement: 34 | code_depar
+ao_05.txt	5000 car.	idweb: 15-30328 | id: 15_30328 | objet: dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul | filename: BOAMP-J-AO_2015_062
+ao_06.txt	5000 car.	idweb: 15-31233 | id: 15_31233 | objet: fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités 
+ao_07.txt	5000 car.	idweb: 15-31409 | id: 15_31409 | objet: construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de réadaptions do
+ao_08.txt	5000 car.	idweb: 15-31443 | id: 15_31443 | objet: location de véhicules et engins de chantier destinés aux services techniques au Barcarès | filename: BOAMP-J-AO_2015
+ao_09.txt	5000 car.	idweb: 15-31506 | id: 15_31506 | objet: maintenance des installations de sécurité incendie pour la ville de Blagnac | filename: BOAMP-J-AO_2015_062009 | famil
+ao_10.txt	5000 car.	idweb: 15-31538 | id: 15_31538 | objet: fioul domestique et carburants à Aix En Provence | filename: BOAMP-J-AO_2015_062009 | famille: JOUE | code_departement: 
+ao_11.txt	5000 car.	idweb: 15-31576 | id: 15_31576 | objet: Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un faisceau f
+ao_12.txt	5000 car.	idweb: 15-32477 | id: 15_32477 | objet: travaux de mise en accessibilité PMR du restaurant universitaire petit Bouloie à Besançon | filename: BOAMP-J-AO_201
+ao_13.txt	5000 car.	idweb: 15-15433 | id: 15_15433 | objet: Travaux d'étanchéité-couverture en Maine et Loire pour les lycées de la Région des Pays de la Loire et espace régi
+ao_14.txt	5000 car.	idweb: 15-31604 | id: 15_31604 | objet: construction d'un parking souterrain place foch à Gagny | filename: BOAMP-J-AO_2015_064003 | famille: JOUE | code_depart
+ao_15.txt	5000 car.	idweb: 15-32950 | id: 15_32950 | objet: Maintenance, vérification et entretien de bâtiments communaux, à Valenciennes (rectificatif) | filename: BOAMP-J-AO_
+ao_16.txt	4419 car.	idweb: 15-33013 | id: 15_33013 | objet: inspections détaillées initiales des tunnels de la Croix-Rousse et Sous Fourvière et mise en sécurité au profit de
+ao_17.txt	5000 car.	idweb: 15-33293 | id: 15_33293 | objet: Missions de constat d'états des lieux locatifs, d'états des risques naturels, miniers et technologiques et de diag
+ao_18.txt	5000 car.	idweb: 15-31971 | id: 15_31971 | objet: réhabilitation et une extension mineure de bâtiments existants pour y créer un pôle socio-éducatif et un espace mu
+ao_19.txt	5000 car.	idweb: 15-31737 | id: 15_31737 | objet: conception - réalisation d'une salle de musiques actuelles sur le site de la constance à Aix en Provence | filename:
+ao_20.txt	3895 car.	idweb: 15-32108 | id: 15_32108 | objet: réalisation des travaux de génie civil nécessaires à la mise en place ou l'extension de réseaux locaux sécurisés o
+ao_21.txt	5000 car.	idweb: 15-31131 | id: 15_31131 | objet: mission de maîtrise d'oeuvre porte sur une opération de construction neuve de 2 bâtiments réunis par un parking co
+ao_22.txt	5000 car.	idweb: 15-32416 | id: 15_32416 | objet: extension de l'école maternelle avec création de locaux supplémentaires et rénovation des salles existantes et d'u
+ao_23.txt	5000 car.	idweb: 15-32537 | id: 15_32537 | objet: mission de de maîtrise d'oeuvre relative à la construction d'une armurerie centralisée à Mailly | filename: BOAMP-J-
+ao_24.txt	5000 car.	idweb: 15-33367 | id: 15_33367 | objet: travaux d'entretien, d'installation et de modification de l'éclairage public et de la signalisation lumineuse tric
+ao_25.txt	5000 car.	idweb: 15-33422 | id: 15_33422 | objet: prestations de nettoyage des batiments communautaires à Nancy | filename: BOAMP-J-AO_2015_064009 | famille: JOUE | code_
