@@ -1,0 +1,41 @@
+[
+ {
+  "id": "q01",
+  "question": "Quelle est la date limite de réponse pour le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon ?",
+  "attendu": "20 avril 2015",
+  "reponse": "La date limite de réponse est le 20 avril 2015. [ao_01.txt]",
+  "sources": [
+   "ao_01.txt",
+   "ao_19.txt",
+   "ao_21.txt"
+  ],
+  "correct": true,
+  "seconds": 1.21
+ },
+ {
+  "id": "q02",
+  "question": "Le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon est-il un marché de travaux, de services ou de fournitures ?",
+  "attendu": "Travaux",
+  "reponse": "Le marché « concession d’aménagement pour la réalisation de la ZAC de Château‑Gaillard, à Pléchatel et Bain de Bretagne » est un marché de travaux. [ao_01.txt]",
+  "sources": [
+   "ao_01.txt",
+   "ao_20.txt",
+   "ao_08.txt"
+  ],
+  "correct": true,
+  "seconds": 12.69
+ },
+ {
+  "id": "q03",
+  "question": "Quelle est la date limite de réponse pour le marché « Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à… » lancé par Ville de Villepinte ?",
+  "attendu": "17 avril 2015",
+  "reponse": "La date limite de réponse est le 17 avril 2015. [ao_02.txt]",
+  "sources": [
+   "ao_02.txt",
+   "ao_12.txt",
+   "ao_05.txt"
+  ],
+  "correct": true,
+  "seconds": 2.85
+ }
+]
