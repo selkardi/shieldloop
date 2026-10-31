@@ -1,0 +1,94 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31443
+id: 15_31443
+objet: location de véhicules et engins de chantier destinés aux services techniques au Barcarès
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 66
+code_departement_prestation: 66
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-14
+datelimitereponse: 2015-04-14T13:00:00+00:00
+nomacheteur: Ville de Barcarès
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 34
+descripteur_code: 185
+descripteur_code: 220
+descripteur_code: 359
+dc: 34
+dc: 185
+dc: 220
+dc: 359
+descripteur_libelle: Benne
+descripteur_libelle: Location
+descripteur_libelle: Matériel de travaux publics
+descripteur_libelle: Véhicules
+type_marche: FOURNITURES
+type_marche_facette: Fournitures
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31443
+gestion.NOM_HTML: 15-31443.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-14T14:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-14
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 29
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Machines et équipements
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 34
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Produits de l'industrie automobile
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 71
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Location sans opérateur
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 34
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Benne
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 185
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Location
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 220
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Matériel de travaux publics
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 359
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Véhicules
+gestion.INDEXATION.DEP_PUBLICATION: 66
+gestion.INDEXATION.DEP_PRESTATION: 66
+gestion.INDEXATION.RESUME_OBJET: location de véhicules et engins de chantier destinés aux services techniques au Barcarès
+donnees.IDENTITE.DENOMINATION: Ville de Barcarès
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Boulevard du 14 juillet BP 5
+donnees.IDENTITE.CP: 66421
+donnees.IDENTITE.VILLE: Le Barcares Cedex
+donnees.OBJET.OBJET_COMPLET: Location de véhicules et engins de chantier destinés aux Services Techniques
+donnees.OBJET.CPV.PRINCIPAL: 34144700
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Le Barcarès
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR
+donnees.OBJET.ACCORD_CADRE.DUREE_MOIS: 48
+donnees.OBJET.ACCORD_CADRE.VALEUR.@DEVISE: EUR
+donnees.OBJET.ACCORD_CADRE.VALEUR.#text: 1000000.00
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Marché séparé à bons de commande avec maximum et un opérateur économique.Les marchés sont conclus pour une période de 1 an à compter de la notification du contrat. Les marchés sont reconductibles pour 3 périodes de un an
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: Véhicules utilitaires et petits camions bennes
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Pickup, utilitaire 3m3, utilitaire 5m3, utilitaire 8m3, camion benne 3 places sans coffre : PTAC inférieur à 3,5 tonnes, camion benne 3 places avec coffre : PTAC inférieur à 3,5 tonnes, camion benne 7 places : PTAC inférieur à 3,5 tonnes, camion plateau : PTAC inférieur à 3,5 tonnes, camion poly-benne : PTAC inférieur à 3,5 tonnes, nacelle sur véhicule léger, fourgon frigorifique 11M3
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 34144700
+donnees.OBJET.LOTS.LOT.QUANTITE: maximum 80 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.NUM: 2
+donnees.OBJET.LOTS.LOT.INTITULE: Engins de chantier
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Chariot élévateur frontal télescopique, tractopelle, mini pelles + remorque, chargeuses compactes sur pneus ou chenilles + remorque
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 42415310
+donnees.OBJET.LOTS.LOT.QUANTITE: maximum 40 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.NUM: 3
+donnees.OBJET.LOTS.LOT.INTITULE: Poids Lourds
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Camion benne : PTAC 26 tonnes, camion poly- benne : PTAC 26 tonnes, camion frigorifique : PTCA 19 tonnes
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 34140000
+donnees.OBJET.LOTS.LOT.QUANTITE: maximum 30 000.00 Euros pour la période initiale. Ces montants seront identiques pour les périodes de reconduction
+donnees.OBJET.LOTS.LOT.NUM: 4
+donnees.OBJET.LOTS.LOT.INTITULE: Balayeuses
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Balayeuse de voirie
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 34144430
+donnees.OBJET.LOTS.LOT.QUANTITE: maximum 60 000.00 Euros pour la période initiale. Ces montants seront identiq

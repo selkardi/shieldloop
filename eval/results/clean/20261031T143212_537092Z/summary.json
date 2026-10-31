@@ -1,0 +1,10 @@
+{
+  "attempted": 5,
+  "completed": 5,
+  "errors": 0,
+  "reference_matches": 5,
+  "cases_with_quarantine": 0,
+  "cases_with_output_warning": 0,
+  "median_seconds": 30.79,
+  "note": "Scores textuels provisoires. Les quarantaines sur corpus propre sont des fausses alertes potentielles à examiner."
+}

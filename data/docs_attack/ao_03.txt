@@ -1,0 +1,73 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31036
+id: 15_31036
+objet: Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de Toulouse
+filename: BOAMP-J-AO_2015_061003
+famille: JOUE
+code_departement: 31
+code_departement_prestation: 31
+famille_libelle: Marchés européens
+dateparution: 2015-03-02
+datefindiffusion: 2015-04-13
+datelimitereponse: 2015-04-13T11:00:00+00:00
+nomacheteur: CHU Toulouse
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 347
+dc: 347
+descripteur_libelle: Transport
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31036
+gestion.NOM_HTML: 15-31036.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-02
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-13T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-13
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 33
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Instruments médicaux, de précision, d'optique et d'horlogerie
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 60
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Transports terrestres
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 347
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Transport
+gestion.INDEXATION.DEP_PUBLICATION: 31
+gestion.INDEXATION.DEP_PRESTATION: 31
+gestion.INDEXATION.RESUME_OBJET: Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de Toulouse
+donnees.IDENTITE.DENOMINATION: CHU Toulouse
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.CONTACT: [retiré]
+donnees.IDENTITE.ADRESSE: Hôtel-Dieu Saint-Jacques 2 rue Viguerie TSA 80035
+donnees.IDENTITE.CP: 31059
+donnees.IDENTITE.VILLE: Toulouse cedex 9
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: http://www.chu-toulouse.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://www.achats-hopitaux.com
+donnees.OBJET.TITRE_MARCHE: Prestations de transports pédestres de patients (brancardage)
+donnees.OBJET.TYPE_MARCHE.SERVICE: 2
+donnees.OBJET.OBJET_COMPLET: Prestations de transports pédestres de patients (brancardage)Lieu d'exécution : Centre Hospitalier Universitaire de Toulouse La prestation sera initiée aux urgences de Purpan et sera éventuellement étendue à d'autres secteurs du CHU. Emission des bons de commande : Le présent marché sera exécuté par émission de bons de commande. Dans le cas où un nouveau secteur d'activité entrerait dans le champ de la prestation, le titulaire en sera avisé par bon de commande. Les bons de commande seront émis pour la durée résiduelle du marché, par secteur d'activité.Forfaitisatio
+donnees.OBJET.CPV.PRINCIPAL: 60000000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: CHU de Toulouse
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 31000
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Toulouse
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR623
+donnees.OBJET.ACCORD_CADRE.DUREE_MOIS: 24
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Le présent appel d'offres a pour objet de conclure un marché public à bons de commandes mono-attributaire au sens de l'article 77 du code des marchés publics, sans montant ni quantité minimum et maximum.Activité concernant le secteur des urgences (où la prestation sera initiée) :Actuellement, l'activité journalière des urgences est estimée à environ 150 courses aller par jour :- 120 courses pour des patients bénéficiant d'examens d'imagerie (scanner, échographie...), les urgences disposant d'un secteur d'imagerie dédié.- 30 courses pour des patients, sa
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: Conformément à ce qui est prévu aux articles 35 II 4° (pour un marché de fournitures) ou 35 II 5° (pour un marché de services ou travaux) du CMP, constituant des options au sens du droit communautaire, et si les conditions décrites à ces articles sont remplies, le Pouvoir Adjudicateur se réserve, le cas échéant, le droit de passer des marchés négociés complémentaires avec le(s) Titulaire(s) de ce marché.De même, conformément à ce qui est prévu aux articles 35 II 6° du CMP, constituant des options au sens du droit communautaire, et si les cond
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 2
+donnees.OBJET.DUREE_DELAI.DATE_DEBUT: 2015-09-01
+donnees.OBJET.DUREE_DELAI.DATE_FIN: 2017-08-31
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 55
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: Qualité (dont : Moyens humains affectés à l'exécution des prestations : 40% ; Mode d'organisation des prestations : 50% ; Informations et traçabilité : 10%)
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 45
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: Prix
+donnee

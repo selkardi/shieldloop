@@ -4,3 +4,4 @@ __pycache__/
 *.gguf
 data/private/
 eval/report.json
+rag/

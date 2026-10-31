@@ -1,0 +1,79 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-30328
+id: 15_30328
+objet: dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 974
+code_departement_prestation: 974
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-05-04
+datelimitereponse: 2015-05-04T11:00:00+00:00
+nomacheteur: COMMUNE DE SAINT-PAUL
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 89
+dc: 89
+descripteur_libelle: Dératisation, désinsectisation
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-30328
+gestion.NOM_HTML: 15-30328.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-05-04T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-05-04
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 89
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Dératisation, désinsectisation
+gestion.INDEXATION.DEP_PUBLICATION: 974
+gestion.INDEXATION.DEP_PRESTATION: 974
+gestion.INDEXATION.RESUME_OBJET: dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul
+donnees.IDENTITE.DENOMINATION: COMMUNE DE SAINT-PAUL
+donnees.IDENTITE.CONTACT: [retiré]
+donnees.IDENTITE.ADRESSE: 22 rue du SémaphoreCS 51015
+donnees.IDENTITE.CP: 97864
+donnees.IDENTITE.VILLE: Saint-paul
+donnees.IDENTITE.PAYS: RE
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://www.marchespublics.mairie-saintpaul.re:8080/SIS-ePP-prod-interface
+donnees.OBJET.TITRE_MARCHE: Dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-paul.
+donnees.OBJET.TYPE_MARCHE.SERVICE: 1
+donnees.OBJET.OBJET_COMPLET: Dans chacun des 3 lots géographiques : Traitement préventif dans les écoles : Opérations systémiques bisannuelles de dératisation/ désinfection/ désinsectisation des écoles et leurs annexes .+ Traitement correctif: Opérations ponctuelles de dératisation, désinfection et/ou désinsectisation des bâtiments communaux y compris les écoles de Saint-Paul.
+donnees.OBJET.CPV.PRINCIPAL: 85142300
+donnees.OBJET.CPV.PRINCIPAL: 90921000
+donnees.OBJET.CPV.PRINCIPAL: 90923000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Mairie de Saint-paul
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 97864
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Saint-paul
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR94
+donnees.OBJET.ACCORD_CADRE.DUREE_AN: 4
+donnees.OBJET.ACCORD_CADRE.VALEUR.@DEVISE: EUR
+donnees.OBJET.ACCORD_CADRE.VALEUR.#text: 350000
+donnees.OBJET.CARACTERISTIQUES.VALEUR.@DEVISE: EUR
+donnees.OBJET.CARACTERISTIQUES.VALEUR.#text: 350000
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: Le contrat initial pourra faire l'objet d'une modification par avenant en application de l'article 20 du CMP.Des marchés complémentaires dont les prestations ne figurent pas dans le marché initial, ou des marchés ayant pour objet la réalisation de prestations similaires, pourront être passés sans mise en concurrence et sans publicité pour autant qu'ils répondent aux conditions mentionnés dans l'article 35 II du CMP.
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 3
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 12
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: LOT 1 : Zone nord (Quartiers du Centre ville à Bois de nèfles)
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Traitement préventif dans les écoles : opération systémique bisannuelle de dératisation/ désinfection/désinsectisation des 17 écoles et 1 annexe du secteur géographique dit Zone 1 (cf. liste en annexe au CCP pour le Lot 1). + Traitement correctif : Opérations ponctuelles de dératisation, désinfection et/ou désinsectisation dans les écoles et bâtiments de la ZONE 1 de la commune de Saint-Paul.
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 85142300
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 90921000
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 90923000
+donnees.OBJET.LOTS.LOT.QUANTITE: montant minimum annuel: 5000 euros HT, sans montant maximum
+donnees.OBJET.LOTS.LOT.DUREE_MOIS: 48
+donnees.OBJET.LOTS.LOT.INFO_COMPL: Les délais d'exécution des prestations proposés par le candidat et sur lesquels s'engage le prestataire sont précisés à l'acte d'engagement pour chacun des lots conformément aux dispositions du CCP.- pour les délais de traitement préventif (deux campagnes annuelles dans les écoles obligatoirement pendant les vacances scolaires) : délai d'intervention plafonné à 15 jours par campagne à compter de la réception du bon de commande.- pour les dél

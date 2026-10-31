@@ -1,0 +1,69 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-32108
+id: 15_32108
+objet: réalisation des travaux de génie civil nécessaires à la mise en place ou l'extension de réseaux locaux sécurisés ou non sur le territoire du DIRISI à Toulon
+filename: BOAMP-J-AO_2015_064003
+famille: JOUE
+code_departement: 83
+code_departement_prestation: 94
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-04-03
+datelimitereponse: 2015-04-03T17:00:00+00:00
+nomacheteur: DIRISI Toulon
+perimetre: DIRECTIVE-18
+type_procedure: RESTREINT
+procedure_libelle: Procédure Restreinte
+procedure_categorise: RESTREINT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+criteres: environnementaux
+etat: INITIAL
+descripteur_code: 141
+dc: 141
+descripteur_libelle: Génie civil
+type_marche: FOURNITURES
+type_marche_facette: Fournitures
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-32108
+gestion.NOM_HTML: 15-32108.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-03T18:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-03
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 141
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Génie civil
+gestion.INDEXATION.DEP_PUBLICATION: 83
+gestion.INDEXATION.DEP_PRESTATION: 94
+gestion.INDEXATION.RESUME_OBJET: réalisation des travaux de génie civil nécessaires à la mise en place ou l'extension de réseaux locaux sécurisés ou non sur le territoire du DIRISI à Toulon
+donnees.IDENTITE.DENOMINATION: DIRISI Toulon
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: EMA/DC DIRISI - service central marchés - FORT DE BICETRE - 21 avenue Charles Gide
+donnees.IDENTITE.CP: 94270
+donnees.IDENTITE.VILLE: Le kremlin bicêtre
+donnees.OBJET.TITRE_MARCHE: F15900010630
+donnees.OBJET.OBJET_COMPLET: Marché Réseaux Décentralisé par Unité d'Oeuvre de Génie Civil. Le présent marché a pour objet la réalisation des travaux de génie civil nécessaires à lamise en place ou l'extension de réseaux locaux sécurisés ou non.
+donnees.OBJET.CPV.PRINCIPAL: 45200000
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR82
+donnees.OBJET.CARACTERISTIQUES.RECONDUCTIONS.NB_RECONDUCTIONS: 3
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 48
+donnees.PROCEDURE.NB_CANDIDATS.NB_MAX_OFFRE: 7
+donnees.PROCEDURE.NB_CANDIDATS.NB_MIN_OFFRE: 5
+donnees.PROCEDURE.NB_CANDIDATS.LIMITATION_CANDIDATS: Le présent marché nécessite l'accès à des informationsclassifiées au niveau 'marché avec accès à des ISC (informations ou supports classifiés)'. Seule une entreprise bénéficiant d'une habilitation à connaitre de telles informations peut être autorisée à obtenir ce marché.
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-03T18:00:00+01:00
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: F15900010630
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Date d'envoi du présent avis au JOUE et au BOAMP : 3 mars 2015.
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.DENOMINATION: Tribunal administratif de Toulon
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.ADRESSE: 5 rue Jean Racine -BP40510
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.CP: 83041
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.VILLE: Toulon cedex 9
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.TEL: [retiré]
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.MEL: [retiré]
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.ADRESSE: 5 rue Jean Racine - BP40510
+url_avis: https://www.boamp.fr/pages/avis/?q=idweb:15-32108

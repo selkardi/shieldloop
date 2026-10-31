@@ -3,4 +3,5 @@ pyyaml
 python-dotenv
 streamlit
 ollama
+rank-bm25
 # add: chromadb, rank_bm25, sentence-transformers (RAG) · peft, trl, datasets (LoRA)

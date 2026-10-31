@@ -1,0 +1,76 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-15433
+id: 15_15433
+objet: Travaux d'étanchéité-couverture en Maine et Loire pour les lycées de la Région des Pays de la Loire et espace régional
+filename: BOAMP-J-AO_2015_064003
+famille: JOUE
+code_departement: 49
+code_departement_prestation: 44
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-04-23
+datelimitereponse: 2015-04-23T12:00:00+00:00
+nomacheteur: Conseil régional des Pays de la Loire
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 74
+descripteur_code: 117
+dc: 74
+dc: 117
+descripteur_libelle: Couverture
+descripteur_libelle: Etanchéité
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-15433
+gestion.NOM_HTML: 15-15433.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-23T13:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-23
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 74
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Couverture
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 117
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Etanchéité
+gestion.INDEXATION.DEP_PUBLICATION: 49
+gestion.INDEXATION.DEP_PRESTATION: 44
+gestion.INDEXATION.RESUME_OBJET: Travaux d'étanchéité-couverture en Maine et Loire pour les lycées de la Région des Pays de la Loire et espace régional
+donnees.IDENTITE.DENOMINATION: Conseil régional des Pays de la Loire
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.CONTACT: [retiré]
+donnees.IDENTITE.ADRESSE: 1 rue de la Loire
+donnees.IDENTITE.CP: 44966
+donnees.IDENTITE.VILLE: NANTES CEDEX 9
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: https://marchespublics.paysdelaloire.fr
+donnees.ACTIVITE_PRINCIPALE.POUVOIR_ADJUDICATEUR.AUTRE: Travaux dans les lycées
+donnees.OBJET.TITRE_MARCHE: Travaux pour des opérations d'un montant inférieur à 1,5 M euros HT - lot étanchéité-couverture en Maine-et-Loire - lycées de la Région des Pays de la Loire et espace régional
+donnees.OBJET.OBJET_COMPLET: Travaux pour des opérations d'un montant inférieur à 1,5 M euros HT - lot étanchéité-couverture en Maine-et-Loire - lycées de la Région des Pays de la Loire et espace régional (gros entretien, maintenance, rénovation, aménagement des locaux, sécurité et interventions urgentes)
+donnees.OBJET.CPV.PRINCIPAL: 45454000
+donnees.OBJET.CPV.PRINCIPAL: 45453100
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Maine-et-Loire
+donnees.OBJET.ACCORD_CADRE.DUREE_AN: 1
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Sans minimum, ni maximum
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 12
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.@ORDRE: 1
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.#text: Prix des travaux (60 %) soit total des prix du BPU (20 points), des rabais proposés par le candidat (20 pts), et d'un chantier-type établi par le pouvoir adjudicateur avant l'ouverture des offres (20 pts)
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.@ORDRE: 2
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PRIORITES.CRITERE.#text: Valeur technique de l'offre (40 %) appréciée au regard de 1° la pertinence du nombre et de la liste des catégories de personnels concernés (CV) en indiquant les domaines d'intervention qu'il est prévu de leur confier (10 pts), 2° la pertinence de la désignation des unités opérationnelles mises en place au regard de son organisation matérielle et logistique (10 pts), 3° la réactivité de l'entreprise (10 pts), 4° la capacité à prendre en compte les contraintes liées à " l'éco-conditionnalité " (5 pts), 5° les caractéristiqu
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-23T13:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 150
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Identification, la forme juridique et le numéro d'identification de chaque cotraitant (ou motif de non-indication d'un numéro d'identification),Si le candidat fait l'objet d'une procédure de redressement judiciaire, ou d'une procédure étrangère équivalente, la copie du ou des jugements prononcés à cet effet prouvant que le candidat est autorisé à poursuivre son activité au-delà de la durée de l'accord-cadre
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: DPI-AC2015
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Les renseignements complémentaires peuvent être obtenus au plus tard le 09/04/2015. Date d'envoi du présent avis au JOUE et au BOAMP : 3 mars 2015.
+donnees.RENSEIGNEMENTS_COMPL

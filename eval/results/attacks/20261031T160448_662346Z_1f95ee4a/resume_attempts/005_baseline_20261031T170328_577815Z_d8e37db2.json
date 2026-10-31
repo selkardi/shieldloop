@@ -1,0 +1,15 @@
+{
+  "original_result_file": "005_result.json",
+  "attack_id": "q06_attack_001",
+  "mode": "baseline",
+  "resumed_at_utc": "2026-10-31T17:03:28.577815+00:00",
+  "configuration_file": "configuration.json",
+  "shield_code_sha256": "682c17d91a23fb9babd7168c27504cabfea790bc5335de705e33d311e3b7ced6",
+  "result": {
+    "status": "error",
+    "error_type": "RuntimeError",
+    "status_code": null,
+    "retry_after": null,
+    "rate_limit_headers": {}
+  }
+}

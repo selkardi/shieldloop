@@ -1,0 +1,126 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31604
+id: 15_31604
+objet: construction d'un parking souterrain place foch à Gagny
+filename: BOAMP-J-AO_2015_064003
+famille: JOUE
+code_departement: 93
+code_departement_prestation: 93
+famille_libelle: Marchés européens
+dateparution: 2015-03-04
+datefindiffusion: 2015-04-17
+datelimitereponse: 2015-04-17T11:00:00+00:00
+nomacheteur: Commune de Gagny
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 11
+descripteur_code: 18
+descripteur_code: 87
+descripteur_code: 105
+descripteur_code: 115
+descripteur_code: 117
+descripteur_code: 144
+descripteur_code: 222
+descripteur_code: 223
+descripteur_code: 264
+descripteur_code: 321
+descripteur_code: 322
+descripteur_code: 360
+dc: 11
+dc: 18
+dc: 87
+dc: 105
+dc: 115
+dc: 117
+dc: 144
+dc: 222
+dc: 223
+dc: 264
+dc: 321
+dc: 322
+dc: 360
+descripteur_libelle: Appareil élévateur
+descripteur_libelle: Assainissement
+descripteur_libelle: Démolition
+descripteur_libelle: Electricité
+descripteur_libelle: Equipements spécialisés
+descripteur_libelle: Etanchéité
+descripteur_libelle: Gros oeuvre
+descripteur_libelle: Menuiserie
+descripteur_libelle: Métallerie
+descripteur_libelle: Peinture (travaux)
+descripteur_libelle: Serrurerie
+descripteur_libelle: Signalisation
+descripteur_libelle: Ventilation
+type_marche: TRAVAUX
+type_marche_facette: Travaux
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31604
+gestion.NOM_HTML: 15-31604.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-04
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-17T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-17
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 29
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Machines et équipements
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 45
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Travaux de construction
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 90
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Assainissement, voirie et gestion des déchets
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 11
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Appareil élévateur
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 18
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Assainissement
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 87
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Démolition
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 105
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Electricité
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 115
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Equipements spécialisés
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 117
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Etanchéité
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 144
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Gros oeuvre
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 222
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Menuiserie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 223
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Métallerie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 264
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Peinture (travaux)
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 321
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Serrurerie
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 322
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Signalisation
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 360
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Ventilation
+gestion.INDEXATION.DEP_PUBLICATION: 93
+gestion.INDEXATION.DEP_PRESTATION: 93
+gestion.INDEXATION.RESUME_OBJET: construction d'un parking souterrain place foch à Gagny
+donnees.IDENTITE.DENOMINATION: Commune de Gagny
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 1 place foch
+donnees.IDENTITE.CP: 93220
+donnees.IDENTITE.VILLE: Gagny
+donnees.IDENTITE.URL: http://www.ville-gagny.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://www.mairie-gagny.marcoweb.fr
+donnees.OBJET.TITRE_MARCHE: Construction d'un parking souterrain place foch
+donnees.OBJET.OBJET_COMPLET: Construction d'un parking souterrain place foch
+donnees.OBJET.CPV.PRINCIPAL: 45223310
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: place foch
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 93220
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Gagny
+donnees.OBJET.LOTS.LOT.NUM: 1
+donnees.OBJET.LOTS.LOT.INTITULE: Travaux généraux / démolition / gros-oeuvre/ étanchéité / assainissement / réseaux divers / protection incendie
+donnees.OBJET.LOTS.LOT.DESCRIPTION: Travaux généraux / démolition / gros-oeuvre/ étanchéité / assainissement / réseaux divers / protection incendie
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45111100
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 45232410
+donnees.OBJET.LOTS.LOT.CPV.PRINCIPAL: 51700000
+donne
