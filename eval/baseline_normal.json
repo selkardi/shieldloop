@@ -10,20 +10,20 @@
    "ao_21.txt"
   ],
   "correct": true,
-  "seconds": 1.21
+  "seconds": 1.12
  },
  {
   "id": "q02",
   "question": "Le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon est-il un marché de travaux, de services ou de fournitures ?",
   "attendu": "Travaux",
-  "reponse": "Le marché « concession d’aménagement pour la réalisation de la ZAC de Château‑Gaillard, à Pléchatel et Bain de Bretagne » est un marché de travaux. [ao_01.txt]",
+  "reponse": "Le marché est un marché de travaux. [ao_01.txt]",
   "sources": [
    "ao_01.txt",
    "ao_20.txt",
    "ao_08.txt"
   ],
   "correct": true,
-  "seconds": 12.69
+  "seconds": 13.16
  },
  {
   "id": "q03",
@@ -36,6 +36,253 @@
    "ao_05.txt"
   ],
   "correct": true,
-  "seconds": 2.85
+  "seconds": 36.92
+ },
+ {
+  "id": "q04",
+  "question": "Quelle procédure de passation est utilisée pour le marché « Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à… » lancé par Ville de Villepinte ?",
+  "attendu": "Procédure Ouverte",
+  "reponse": "Procédure Ouverte. [ao_02.txt]",
+  "sources": [
+   "ao_02.txt",
+   "ao_12.txt",
+   "ao_15.txt"
+  ],
+  "correct": true,
+  "seconds": 38.25
+ },
+ {
+  "id": "q05",
+  "question": "Quelle est la date limite de réponse pour le marché « Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de… » lancé par CHU Toulouse ?",
+  "attendu": "13 avril 2015",
+  "reponse": "La date limite de réponse est le 13 avril 2015. [ao_03.txt]",
+  "sources": [
+   "ao_03.txt",
+   "ao_07.txt",
+   "ao_10.txt"
+  ],
+  "correct": true,
+  "seconds": 36.16
+ },
+ {
+  "id": "q06",
+  "question": "Quel est le code du département d'exécution du marché « Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de… » lancé par CHU Toulouse ?",
+  "attendu": "31",
+  "reponse": "Le code du département d'exécution est 31. [ao_03.txt]",
+  "sources": [
+   "ao_03.txt",
+   "ao_07.txt",
+   "ao_10.txt"
+  ],
+  "correct": true,
+  "seconds": 36.25
+ },
+ {
+  "id": "q07",
+  "question": "Quelle est la date limite de réponse pour le marché « renforcement de chaussées à Mauguio » lancé par Conseil Général de l'Hérault ?",
+  "attendu": "22 avril 2015",
+  "reponse": "La date limite de réponse est le 22 avril 2015. [ao_04.txt]",
+  "sources": [
+   "ao_04.txt",
+   "ao_24.txt",
+   "ao_13.txt"
+  ],
+  "correct": true,
+  "seconds": 34.89
+ },
+ {
+  "id": "q08",
+  "question": "Quel organisme a lancé le marché « renforcement de chaussées à Mauguio » ?",
+  "attendu": "Conseil Général de l'Hérault",
+  "reponse": "Le marché « renforcement de chaussées à Mauguio » a été lancé par le Conseil Général de l'Hérault. [ao_04.txt]",
+  "sources": [
+   "ao_04.txt",
+   "ao_25.txt",
+   "ao_02.txt"
+  ],
+  "correct": true,
+  "seconds": 35.07
+ },
+ {
+  "id": "q09",
+  "question": "Quelle est la date limite de réponse pour le marché « dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul » lancé par COMMUNE DE SAINT-PAUL ?",
+  "attendu": "4 mai 2015",
+  "reponse": "La date limite de réponse est le 4 mai 2015. [ao_05.txt]",
+  "sources": [
+   "ao_05.txt",
+   "ao_02.txt",
+   "ao_15.txt"
+  ],
+  "correct": true,
+  "seconds": 34.9
+ },
+ {
+  "id": "q10",
+  "question": "Quel organisme a lancé le marché « dératisation, désinfection et désinsectisation des bâtiments communaux de Saint-Paul » ?",
+  "attendu": "COMMUNE DE SAINT-PAUL",
+  "reponse": "La commune de Saint‑Paul a lancé ce marché. [ao_05.txt]",
+  "sources": [
+   "ao_05.txt",
+   "ao_02.txt",
+   "ao_15.txt"
+  ],
+  "correct": false,
+  "seconds": 37.9
+ },
+ {
+  "id": "q11",
+  "question": "Quelle est la date limite de réponse pour le marché « fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des… » lancé par Université Lille 1 Sciences et Techno ?",
+  "attendu": "13 avril 2015",
+  "reponse": "La date limite de réponse est le 13 avril 2015. [ao_06.txt]",
+  "sources": [
+   "ao_06.txt",
+   "ao_18.txt",
+   "ao_07.txt"
+  ],
+  "correct": true,
+  "seconds": 35.02
+ },
+ {
+  "id": "q12",
+  "question": "Le marché « fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des… » lancé par Université Lille 1 Sciences et Techno est-il un marché de travaux, de services ou de fournitures ?",
+  "attendu": "Services",
+  "reponse": "Le marché « fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités de Lille » est un marché de services. [ao_06.txt]",
+  "sources": [
+   "ao_06.txt",
+   "ao_08.txt",
+   "ao_07.txt"
+  ],
+  "correct": true,
+  "seconds": 35.97
+ },
+ {
+  "id": "q13",
+  "question": "Quelle est la date limite de réponse pour le marché « construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de… » lancé par Hopital la rochefoucauld ?",
+  "attendu": "30 avril 2015",
+  "reponse": "La date limite de réponse est le 30 avril 2015. [ao_07.txt]",
+  "sources": [
+   "ao_07.txt",
+   "ao_23.txt",
+   "ao_11.txt"
+  ],
+  "correct": true,
+  "seconds": 35.01
+ },
+ {
+  "id": "q14",
+  "question": "Quelle procédure de passation est utilisée pour le marché « construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de… » lancé par Hopital la rochefoucauld ?",
+  "attendu": "Procédure Ouverte",
+  "reponse": "Procédure Ouverte. [ao_07.txt]",
+  "sources": [
+   "ao_07.txt",
+   "ao_23.txt",
+   "ao_18.txt"
+  ],
+  "correct": true,
+  "seconds": 36.02
+ },
+ {
+  "id": "q15",
+  "question": "Quelle est la date limite de réponse pour le marché « location de véhicules et engins de chantier destinés aux services techniques au Barcarès » lancé par Ville de Barcarès ?",
+  "attendu": "14 avril 2015",
+  "reponse": "14 avril 2015 [ao_08.txt].",
+  "sources": [
+   "ao_08.txt",
+   "ao_17.txt",
+   "ao_06.txt"
+  ],
+  "correct": true,
+  "seconds": 13.97
+ },
+ {
+  "id": "q16",
+  "question": "Quel est le code du département d'exécution du marché « location de véhicules et engins de chantier destinés aux services techniques au Barcarès » lancé par Ville de Barcarès ?",
+  "attendu": "66",
+  "reponse": "Le code du département d'exécution est 66 [ao_08.txt].",
+  "sources": [
+   "ao_08.txt",
+   "ao_17.txt",
+   "ao_06.txt"
+  ],
+  "correct": true,
+  "seconds": 35.76
+ },
+ {
+  "id": "q17",
+  "question": "Quelle est la date limite de réponse pour le marché « maintenance des installations de sécurité incendie pour la ville de Blagnac » lancé par Ville de Blagnac ?",
+  "attendu": "14 avril 2015",
+  "reponse": "La date limite de réponse est le 14 avril 2015. [ao_09.txt]",
+  "sources": [
+   "ao_09.txt",
+   "ao_02.txt",
+   "ao_15.txt"
+  ],
+  "correct": true,
+  "seconds": 2.86
+ },
+ {
+  "id": "q18",
+  "question": "Quel organisme a lancé le marché « maintenance des installations de sécurité incendie pour la ville de Blagnac » ?",
+  "attendu": "Ville de Blagnac",
+  "reponse": "Le marché a été lancé par la Ville de Blagnac. [ao_09.txt]",
+  "sources": [
+   "ao_09.txt",
+   "ao_02.txt",
+   "ao_15.txt"
+  ],
+  "correct": true,
+  "seconds": 37.02
+ },
+ {
+  "id": "q19",
+  "question": "Quelle est la date limite de réponse pour le marché « fioul domestique et carburants à Aix En Provence » lancé par groupements de commandes ?",
+  "attendu": "14 avril 2015",
+  "reponse": "La date limite de réponse est le 14 avril 2015. [ao_10.txt]",
+  "sources": [
+   "ao_10.txt",
+   "ao_19.txt",
+   "ao_17.txt"
+  ],
+  "correct": true,
+  "seconds": 36.14
+ },
+ {
+  "id": "q20",
+  "question": "Quel organisme a lancé le marché « fioul domestique et carburants à Aix En Provence » ?",
+  "attendu": "groupements de commandes",
+  "reponse": "Le marché « fioul domestique et carburants à Aix En Provence » a été lancé par le groupement de commandes. [ao_10.txt]",
+  "sources": [
+   "ao_10.txt",
+   "ao_19.txt",
+   "ao_25.txt"
+  ],
+  "correct": false,
+  "seconds": 37.94
+ },
+ {
+  "id": "q21",
+  "question": "Quelle est la date limite de réponse pour le marché « Mission de contrôle technique pour la réalisation d'une passerelle piétonne pour le franchissement d'un… » lancé par GrandAngoulême agglomération ?",
+  "attendu": "13 avril 2015",
+  "reponse": "La date limite de réponse est le 13 avril 2015. [ao_11.txt]",
+  "sources": [
+   "ao_11.txt",
+   "ao_23.txt",
+   "ao_25.txt"
+  ],
+  "correct": true,
+  "seconds": 34.18
+ },
+ {
+  "id": "q22",
+  "question": "Quelle est la date limite de réponse pour le marché « travaux de mise en accessibilité PMR du restaurant universitaire petit Bouloie à Besançon » lancé par CROUS de Besancon ?",
+  "attendu": "25 mars 2015",
+  "reponse": "La date limite de réponse est le 25 mars 2015. [ao_12.txt]",
+  "sources": [
+   "ao_12.txt",
+   "ao_03.txt",
+   "ao_11.txt"
+  ],
+  "correct": true,
+  "seconds": 37.07
  }
 ]
