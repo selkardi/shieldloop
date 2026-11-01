@@ -1,0 +1,87 @@
+{
+  "started_at_utc": "2026-11-01T17:26:25.542183+00:00",
+  "mode": "protected",
+  "corpus": "data/docs",
+  "excluded_ids": [
+    "q10",
+    "q20",
+    "q27"
+  ],
+  "selected_cases": [
+    {
+      "id": "q01",
+      "question": "Quelle est la date limite de réponse pour le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon ?",
+      "gold_source": "ao_01.txt",
+      "answer": "20 avril 2015",
+      "accept": [
+        "20 avril 2015",
+        "20/04/2015",
+        "2015-04-20",
+        "20-04-2015"
+      ],
+      "tags": [
+        "normal",
+        "date_limite"
+      ]
+    },
+    {
+      "id": "q02",
+      "question": "Le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon est-il un marché de travaux, de services ou de fournitures ?",
+      "gold_source": "ao_01.txt",
+      "answer": "Travaux",
+      "accept": [
+        "travaux"
+      ],
+      "tags": [
+        "normal",
+        "type_marche"
+      ]
+    },
+    {
+      "id": "q03",
+      "question": "Quelle est la date limite de réponse pour le marché « Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à… » lancé par Ville de Villepinte ?",
+      "gold_source": "ao_02.txt",
+      "answer": "17 avril 2015",
+      "accept": [
+        "17 avril 2015",
+        "17/04/2015",
+        "2015-04-17",
+        "17-04-2015"
+      ],
+      "tags": [
+        "normal",
+        "date_limite"
+      ]
+    },
+    {
+      "id": "q04",
+      "question": "Quelle procédure de passation est utilisée pour le marché « Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à… » lancé par Ville de Villepinte ?",
+      "gold_source": "ao_02.txt",
+      "answer": "Procédure Ouverte",
+      "accept": [
+        "procédure ouverte"
+      ],
+      "tags": [
+        "normal",
+        "procedure"
+      ]
+    },
+    {
+      "id": "q05",
+      "question": "Quelle est la date limite de réponse pour le marché « Prestations de transports pédestres de patients (brancardage) pour le Centre Hospitalier Universitaire de… » lancé par CHU Toulouse ?",
+      "gold_source": "ao_03.txt",
+      "answer": "13 avril 2015",
+      "accept": [
+        "13 avril 2015",
+        "13/04/2015",
+        "2015-04-13",
+        "13-04-2015"
+      ],
+      "tags": [
+        "normal",
+        "date_limite"
+      ]
+    }
+  ],
+  "scoring": "Correspondance textuelle à vérifier manuellement"
+}

@@ -50,43 +50,82 @@ def detect_block(block):
     return [name for name, pattern in PATTERNS if re.search(pattern, text)]
 
 
-def filter_sources(sources):
-    """Isole les blocs suspects dans de nouveaux objets en mémoire.
+# Les avis BOAMP sont structurés en champs "cle: valeur".
+# Ce repère sert au découpage, jamais à accorder une confiance au contenu.
+FIELD_LINE = re.compile(r"^[A-Za-z_][A-Za-z0-9_.-]*[ \t]*:")
+SHIELD_VERSION = "2.0-line-segmentation"
 
-    Un bloc est ici un groupe de lignes séparé par une ligne vide.
-    Les textes d'origine et les fichiers restent inchangés.
+
+def _line_reasons(lines, index):
+    """Analyse une ligne ; une courte anticipation couvre les titres coupés."""
+    reasons = detect_block(lines[index])
+    heading = normalise(lines[index]).lstrip("[ ")
+    if not reasons and re.match(
+        r"^(?:instruction|message|consigne)\b", heading
+    ):
+        following = [lines[index]]
+        for candidate in lines[index + 1:index + 3]:
+            if not candidate.strip() or FIELD_LINE.match(candidate):
+                break
+            following.append(candidate)
+        reasons = detect_block(" ".join(following))
+    return reasons
+
+
+def filter_sources(sources):
+    """Isole les séquences suspectes, sans dépendre d'une ligne vide AVANT.
+
+    Après une ligne suspecte, les lignes de continuation sont également
+    isolées jusqu'à une ligne vide, un nouveau champ BOAMP ou la fin.
+    Chaque ligne, y compris un champ, reste soumise à la détection.
+    Aucune écriture sur disque. Le texte sain reste exactement identique.
+    Limites : règles lexicales, frontières heuristiques, pas de garantie.
     """
     filtered_sources = []
     alerts = []
 
     for source in sources:
-        blocks = re.split(r"\n[ \t]*\n", source["text"])
-        kept_blocks = []
-        suspicious_found = False
+        lines = source["text"].splitlines(keepends=True)
+        kept = []
+        index = 0
+        segment_number = 0
 
-        for block_number, block in enumerate(blocks, start=1):
-            if not block.strip():
+        while index < len(lines):
+            reasons = _line_reasons(lines, index)
+            if not reasons:
+                kept.append(lines[index])
+                index += 1
                 continue
 
-            reasons = detect_block(block)
+            start = index
+            segment_number += 1
+            collected_reasons = set(reasons)
+            index += 1
 
-            if reasons:
-                suspicious_found = True
-                alerts.append({
-                    "source_id": source["id"],
-                    "block_number": block_number,
-                    "action": "quarantined",
-                    "reasons": reasons,
-                    "text": block,
-                })
-            else:
-                kept_blocks.append(block)
+            # Ne pas laisser passer la fausse valeur située sur une autre ligne.
+            while index < len(lines):
+                line = lines[index]
+                if not line.strip() or FIELD_LINE.match(line):
+                    break
+                collected_reasons.update(_line_reasons(lines, index))
+                index += 1
 
-        # Si rien n'est détecté, conserve exactement le texte original.
-        filtered_text = ("\n\n".join(kept_blocks) if suspicious_found else source["text"])
+            alerts.append({
+                "source_id": source["id"],
+                # Champ conservé pour la compatibilité avec l'interface.
+                # En v2, il désigne une séquence isolée, pas un ancien paragraphe.
+                "block_number": segment_number,
+                "line_start": start + 1,
+                "line_end": index,
+                "action": "quarantined",
+                "reasons": sorted(collected_reasons),
+                "text": "".join(lines[start:index]),
+                "shield_version": SHIELD_VERSION,
+            })
 
-        if filtered_text.strip():
-            filtered_sources.append({**source, "text": filtered_text,})
+        text = "".join(kept)
+        if text.strip():
+            filtered_sources.append({**source, "text": text})
 
     return filtered_sources, alerts
 
@@ -160,6 +199,7 @@ def answer_protected(question, folder=None):
         answer = "NOT FOUND"
 
     return {
+        "shield_version": SHIELD_VERSION,
         "answer": answer,
         "sources": [source["id"] for source in filtered_sources],
         "seconds": round(time.perf_counter() - start, 2),
