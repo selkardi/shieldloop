@@ -1,0 +1,60 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31131
+id: 15_31131
+objet: mission de maîtrise d'oeuvre porte sur une opération de construction neuve de 2 bâtiments réunis par un parking commun en sous-sol au profit de la SEMIP à Pantin
+filename: BOAMP-J-AO_2015_062003
+famille: JOUE
+code_departement: 93
+code_departement_prestation: 93
+famille_libelle: Marchés européens
+dateparution: 2015-03-02
+datefindiffusion: 2015-04-10
+datelimitereponse: 2015-04-10T11:00:00+00:00
+nomacheteur: SEMIP
+perimetre: DIRECTIVE-18
+type_procedure: CONCOURS_RESTREINT
+procedure_libelle: Procédure Concours restreint
+procedure_categorise: CONCOURS_RESTREINT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 197
+dc: 197
+descripteur_libelle: Maîtrise d'oeuvre
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31131
+gestion.NOM_HTML: 15-31131.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-02
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-10T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-10
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 197
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Maîtrise d'oeuvre
+gestion.INDEXATION.DEP_PUBLICATION: 93
+gestion.INDEXATION.DEP_PRESTATION: 93
+gestion.INDEXATION.RESUME_OBJET: mission de maîtrise d'oeuvre porte sur une opération de construction neuve de 2 bâtiments réunis par un parking commun en sous-sol au profit de la SEMIP à Pantin
+donnees.IDENTITE.DENOMINATION: SEMIP
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: 28 rue Hoche
+donnees.IDENTITE.CP: 93500
+donnees.IDENTITE.VILLE: Pantin
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.ACTIVITE_PRINCIPALE.POUVOIR_ADJUDICATEUR.AUTRE: SEM
+donnees.OBJET.TITRE_MARCHE: Concours de maîtrise d'oeuvre - Lots 5 et 6 - ZAC du Port - Pantin
+donnees.OBJET.OBJET_COMPLET: Concours restreint passé en application de l'ordonnance no2005-649 du 6 juin 2005 et de l'article 41 du décret no2005-1742 du 30 décembre 2005.La mission complète de maîtrise d'oeuvre porte sur une opération de construction neuve de 2 bâtiments réunis par un parking commun en sous-sol, composé de logements locatifs sociaux (2.900 mètres carrés SDP) et en accession (2.840 mètres carrés SDP) et de locaux d'activités (940 mètres carrés SDP).Cette opération bénéficiera de la certification Habitat et Environnement - Profil A - Label Effinergie +.
+donnees.OBJET.CPV.PRINCIPAL: 71200000
+donnees.PROCEDURE.NB_CANDIDATS.NB_OFFRE: 3
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_LIBRE: Le projet sera présenté au stade esquisse + avec une maquette. Le règlement de concours précisera le contenu et les modalités de remise des projets. Les critères d'évaluation sont les suivants:-Le respect du programme, des règles d'urbanisme et plus généralement des dispositions réglementaires en vigueur ;-La qualité architecturale du bâti ;-L'organisation fonctionnelle des bâtiments ainsi que la qualité d'usage des espaces de vie ;-La qualité d'insertion urbaine du projet ;-La compatibilité du coût du projet avec l'enveloppe financière af
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-10T12:00:00+01:00
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.CRITERE_SELECTION: Les candidatures seront sélectionnées après analyse de l'ensemble des documents dont la communication est demandée aux articles 17 et 18 dudit décret et au présent avis. Tout dossier incomplet sera considéré comme non recevable. S'agissant d'un concours restreint, les candidats auront à remettre dans un premier temps un dossier sous format A4 comprenant:-Situation juridique: une lettre de candidature et déclaration d'honneur signée indiquant que les candidats et membres du groupement n'entrent dans aucun des cas d'interdiction de soumissionner
+donnees.CONDITION_PARTICIPATION.PRESTATION_RESERVEE_OUI: L'équipe regroupera des compétences en architecture, en BET TCE, en haute qualité environnementale et en économie de la construction. Pour la compétence architecture, il est exigé une association de 2 architectes: un par bâtiment; l'un des architectes devra être mandataire de l'équipe de maîtrise d'oeuvre, avoir la responsabilité de la conception du parking commun et assurer la phase de suivi de chantier de l'ensemble de l'opération.Pour les BET, Bureau HQE et économiste, un seul candidat est demandé par compétence pour l'ensemble de l'o
+donnees.CONDITION_ADMINISTRATIVE.RECOMPENSES_LAUREAT: 35.000 euros HT par candidat. Cette indemnité intègre la réalisation d'une maquette blanche avec ouvertures et décrochés de façades au 1/200e.
+donnees.CONDITION_ADMINISTRATIVE.INDEMNISATION_PARTICIPANTS: Les indemnités seront allouées à chacun des 3 candidats admis à c

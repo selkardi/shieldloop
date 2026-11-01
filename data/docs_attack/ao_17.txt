@@ -1,0 +1,72 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-33293
+id: 15_33293
+objet: Missions de constat d'états des lieux locatifs, d'états des risques naturels, miniers et technologiques et de diagnostics énergétiques des bâtiments du domaine privé de l'AP- HP au Kremlin Bicêtre
+filename: BOAMP-J-AO_2015_064009
+famille: JOUE
+code_departement: 94
+code_departement: 75
+code_departement_prestation: 94
+famille_libelle: Marchés européens
+dateparution: 2015-03-05
+datefindiffusion: 2015-04-16
+datelimitereponse: 2015-04-16T15:00:00+00:00
+nomacheteur: Assistance Publique Hôpitaux de Paris
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 274
+dc: 274
+descripteur_libelle: Prestations de services
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-33293
+gestion.NOM_HTML: 15-33293.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-05
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-16T16:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-16
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 70
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services immobiliers
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 74
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services fournis principalement aux entreprises
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 274
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Prestations de services
+gestion.INDEXATION.DEP_PUBLICATION: 94
+gestion.INDEXATION.DEP_PUBLICATION: 75
+gestion.INDEXATION.DEP_PRESTATION: 94
+gestion.INDEXATION.RESUME_OBJET: Missions de constat d'états des lieux locatifs, d'états des risques naturels, miniers et technologiques et de diagnostics énergétiques des bâtiments du domaine privé de l'AP- HP au Kremlin Bicêtre
+donnees.IDENTITE.DENOMINATION: Assistance Publique Hôpitaux de Paris
+donnees.IDENTITE.ADRESSE: 78, rue du Général Leclerc
+donnees.IDENTITE.CP: 94270
+donnees.IDENTITE.VILLE: Le kremlin bicêtre
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.URL: http://www.aphp.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://www.achats-hopitaux.com/sdm/ent/gen/index.jsp
+donnees.OBJET.TITRE_MARCHE: Missions de constat d'états des lieux locatifs, d'états des risques naturels, miniers et technologiques et de diagnostics énergétiques des bâtiments du domaine privé de l'Assistance Publique- Hôpitaux de Paris
+donnees.OBJET.TYPE_MARCHE.SERVICE: 27
+donnees.OBJET.OBJET_COMPLET: La présente consultation porte sur l'exécution des missions suivantes :- Constat d'états des lieux en début et en fin de location- Etat des risques naturels, miniers et technologiques des bâtiments ou groupes de bâtiments- Diagnostic de performance énergétique locatif. Pour les bâtiments ou groupes de bâtiments du domaine privé de l'Assistance Publique - Hôpitaux de paris, répartis sur Paris et proche banlieue.
+donnees.OBJET.CPV.PRINCIPAL: 70000000
+donnees.OBJET.CPV.PRINCIPAL: 70311000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: France métropolitaine
+donnees.OBJET.LIEU_EXEC_LIVR.CODE_NUTS: FR101
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Le marché, objet de la consultation, résulte d'un accord cadre mono-attributaire déterminé dans tous ses éléments au sens de la directive 2004/18 du 31 mars 2004 (contrat cadre), c'est-à-dire d'un marché à bons de commande au sens de l'article 77 du code des marchés publics.Les commandes se feront au fur et à mesure des besoins, dans les limites de: - montant minimum : sans- le montant maximum des commandes ne pourra excéder 300 000 euro(s)hors taxe pour toute la durée totale du marché.- 200 à 250 mouvements pour les logements et 15 à 20 pour les commer
+donnees.OBJET.CARACTERISTIQUES.OPTIONS.DESCRIPTION: En application de l'article 35-II-6 du code des marchés publics, le RPA se réserve la faculté de confier, sans publicité ni mise en concurrence préalables, au titulaire du marché la réalisation de travaux similaires.
+donnees.OBJET.DUREE_DELAI.DUREE_MOIS: 48
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 60
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: La valeur technique
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.@POIDS: 40
+donnees.PROCEDURE.CRITERES_ATTRIBUTION.CRITERES_PONDERES.CRITERE.#text: Le prix
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-16T16:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 180
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: Le titulaire est dispensé du versement de la retenue de garantie.
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: L'exécution du marché sera financée par le budget annexe de la dotation non affectée(DNA) sur les crédits d'exploitation du CRPA-ALes prix du marché sont unitaires et révisables annuellementpaiement dans un délai global de 50 jours à compter

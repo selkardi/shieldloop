@@ -1,0 +1,68 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-30976
+id: 15_30976
+objet: Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à Villepinte
+filename: BOAMP-J-AO_2015_061003
+famille: JOUE
+code_departement: 93
+code_departement_prestation: 93
+famille_libelle: Marchés européens
+dateparution: 2015-03-02
+datefindiffusion: 2015-04-17
+datelimitereponse: 2015-04-17T11:00:00+00:00
+nomacheteur: Ville de Villepinte
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 59
+dc: 59
+descripteur_libelle: Chauffage (exploitation)
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-30976
+gestion.NOM_HTML: 15-30976.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-02
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-17T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-17
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 40
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Electricité, gaz et chaleur
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 59
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Chauffage (exploitation)
+gestion.INDEXATION.DEP_PUBLICATION: 93
+gestion.INDEXATION.DEP_PRESTATION: 93
+gestion.INDEXATION.RESUME_OBJET: Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à Villepinte
+donnees.IDENTITE.DENOMINATION: Ville de Villepinte
+donnees.IDENTITE.ADRESSE: Place de l'hôtel de ville
+donnees.IDENTITE.CP: 93420
+donnees.IDENTITE.VILLE: Villepinte
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.URL: http://www.ville-villepinte.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: https://www.achatpublic.com
+donnees.OBJET.TITRE_MARCHE: Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux
+donnees.OBJET.TYPE_MARCHE.SERVICE: 1
+donnees.OBJET.OBJET_COMPLET: Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux
+donnees.OBJET.CPV.PRINCIPAL: 50721000
+donnees.OBJET.LIEU_EXEC_LIVR.ADRESSE: Villepinte
+donnees.OBJET.LIEU_EXEC_LIVR.CP: 93420
+donnees.OBJET.LIEU_EXEC_LIVR.VILLE: Villepinte
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: Il s'agit d'un appel d'offre ouvert, soumis aux dispositions des articles 33 - 57 - 58 - 59 du Code des marchés publics. Cette consultation sera passée en application de l'article 77 du Code des marchés publics relatif aux marchés à bons de commande.Le projet de base du marché est un contrat d'exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux. Les prestations sont rémunérées sur la base des prix mentionnés dans les pièces de prix.Conformément à l'article 77-II du Code des marchés publics, la duré
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-17T12:00:00+01:00
+donnees.CONDITION_RELATIVE_MARCHE.CAUTIONNEMENT: L'avance ne pourra être versée qu'après constitution de la garantie à première demande prévue à l'article 89 du Code des marché publics. Après accord des parties, cette garantie à première demande pourra être remplacée par une garantie personnelle et solidaire.
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Les sommes dues au(x) titulaire(s), seront payées dans un délai global de 30 jours à compter de la date de réception des demandes de paiement.
+donnees.CONDITION_RELATIVE_MARCHE.FORME_JURIDIQUE: En cas de groupement, la forme souhaitée par le pouvoir adjudicateur est un groupement conjoint avec mandataire solidaire. Si le groupement attributaire du marché est d'une forme différente, il pourra se voir contraint d'assurer sa transformation pour se conformer au souhait du pouvoir adjudicateur tel qu'il est indiqué ci-dessus.Il est interdit aux candidats de présenter plusieurs offres en agissant à la fois :- En qualité de candidats individuels et de membres d'un ou plusieurs groupements ; - En qualité de membres de plusieurs groupements.
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Se référer au règlement de la consultation.
+donnees.CONDITION_PARTICIPATION.CAP_ECO: Se référer au règlement de la consultation.
+donnees.CONDITION_PARTICIPATION.CAP_TECH: Se référer au règlement de la consultation.
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: AOO 15-02
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.PROCEDURES_RECOURS_PRECISIONS: Précisions concernant le(s) délai(s) d'introduction des recours : -Avant la signature du marché, recours en référé précontractuel, sur le fondement et dans les conditions précisées aux articles L. 551-1 et suivants et R. 551-1 et suivants du Code de Justice Administrative ; -Rec

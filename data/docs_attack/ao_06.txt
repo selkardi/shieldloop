@@ -1,0 +1,69 @@
+[DOCUMENT RÉEL - source : BOAMP/DILA, Licence Ouverte]
+idweb: 15-31233
+id: 15_31233
+objet: fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités de Lille-Sciences et Technologies à Villeneuve D'Ascq
+filename: BOAMP-J-AO_2015_062009
+famille: JOUE
+code_departement: 59
+code_departement_prestation: 59
+famille_libelle: Marchés européens
+dateparution: 2015-03-03
+datefindiffusion: 2015-04-13
+datelimitereponse: 2015-04-13T11:00:00+00:00
+nomacheteur: Université Lille 1 Sciences et Techno
+perimetre: DIRECTIVE-18
+type_procedure: OUVERT
+procedure_libelle: Procédure Ouverte
+procedure_categorise: OUVERT/
+nature: APPEL_OFFRE
+nature_libelle: Avis de marché
+nature_categorise: appeloffre/standard
+nature_categorise_libelle: Avis de marché/
+etat: INITIAL
+descripteur_code: 186
+dc: 186
+descripteur_libelle: Logiciel
+type_marche: SERVICES
+type_marche_facette: Services
+type_avis: 5
+type_avis: 1
+source_schema: Boamp_v230.xsd
+gestion.REFERENCE.IDWEB: 15-31233
+gestion.NOM_HTML: 15-31233.html
+gestion.INDEXATION.DATE_PUBLICATION: 2015-03-03
+gestion.INDEXATION.DATE_LIMITE_REPONSE: 2015-04-13T12:00:00+01:00
+gestion.INDEXATION.DATE_FIN_DIFFUSION: 2015-04-13
+gestion.INDEXATION.CLASSES.CLASSE.CODE: 72
+gestion.INDEXATION.CLASSES.CLASSE.LIBELLE: Services informatiques
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.CODE: 186
+gestion.INDEXATION.DESCRIPTEURS.DESCRIPTEUR.LIBELLE: Logiciel
+gestion.INDEXATION.DEP_PUBLICATION: 59
+gestion.INDEXATION.DEP_PRESTATION: 59
+gestion.INDEXATION.RESUME_OBJET: fourntiure d'un nouvel outil de gestion numérique pour les services des relations internationales des universités de Lille-Sciences et Technologies à Villeneuve D'Ascq
+donnees.IDENTITE.DENOMINATION: Université Lille 1 Sciences et Techno
+donnees.IDENTITE.CORRESPONDANT: [retiré]
+donnees.IDENTITE.ADRESSE: Service achats et marchés publicsCité cientifique Bâtiment PCET
+donnees.IDENTITE.CP: 59655
+donnees.IDENTITE.VILLE: Villeneuve d'Ascq cedex
+donnees.IDENTITE.TEL: [retiré]
+donnees.IDENTITE.FAX: [retiré]
+donnees.IDENTITE.MEL: [retiré]
+donnees.IDENTITE.URL: http://www.univ-lille1.fr
+donnees.IDENTITE.URL_PROFIL_ACHETEUR: http://www.univ-lille1.fr/presentation/Marches-publics/AppelsOffres
+donnees.IDENTITE.URL_INFORMATION: https://www.marches-publics.gouv.fr
+donnees.IDENTITE.URL_PARTICIPATION: https://www.marches-publics.gouv.fr
+donnees.TYPE_POUVOIR_ADJUDICATEUR.AUTRE: UNIVERSITE
+donnees.OBJET.TITRE_MARCHE: 2015 940 16
+donnees.OBJET.TYPE_MARCHE.SERVICE: 11
+donnees.OBJET.OBJET_COMPLET: La présente consultation a pour objet l'achat d'un nouvel outil de gestion numérique pour les services des relations internationales des Universités de Lille. Le présent marché est passé en groupement de commandes, conformément à l'article 8 du Code des marchés publics. Les membres du groupement sont les suivants :-Université de Lille-Sciences et Technologies-Université de Lille-Droit et Santé-Université de Lille-Sciences humaines et socialesLe mandataire du groupement est l'Université de Lille-Sciences et Technologies.
+donnees.OBJET.CPV.PRINCIPAL: 72212332
+donnees.OBJET.CARACTERISTIQUES.QUANTITE: La durée du marché est de quatre (4) ans fermes, à compter de la réception de la notification du marché par le titulaire.Il s'agit d'un marché ordinaire, passé à prix global et forfaitaire.Les candidats devront présenter une proposition de base entièrement conforme au dossier de consultation.Sous réserve d'avoir présenté la proposition de base, les candidats pourront proposer des variantes.Une démonstration du logiciel est prévue le 21 avril 2015 de 9h à 13h.
+donnees.CONDITION_DELAI.RECEPT_OFFRES: 2015-04-13T12:00:00+01:00
+donnees.CONDITION_DELAI.VALIDITE_OFFRE.DUREE_JOUR: 120
+donnees.CONDITION_RELATIVE_MARCHE.FINANCEMENT: Financement sur crédits de l'Université Lille- Sciences et Technologies, Université de Lille-Droit et santé, Université de Lille-Sciences humaines et sociales ;Application du décret no 2012-1246 du 07 novembre 2012, relatif à la gestion budgétaire et comptable publique;Le mode de règlement choisi par l'administration est le virement par mandat administratif. Le délai global de paiement est fixé à 30 jours à compter de la réception de la facture.
+donnees.CONDITION_RELATIVE_MARCHE.LANGUES.LANGUE: fr
+donnees.CONDITION_PARTICIPATION.SITUATION_JURIDIQUE: Renseignements concernant la situation propre du fournisseur, justificatifs quant aux conditions d'accès à la commande publique visés à l'article 43 à 46 du code des marchés publics et renseignements et formalités nécessaires pour l'évaluation des capacités professionnelles, techniques et financières minimales requises du candidat.
+donnees.CONDITION_ADMINISTRATIVE.REFERENCE_MARCHE: 2015 940 16
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.RENS_COMPLEMENT: Date d'envoi du présent avis au JOUE et au BOAMP : 2 mars 2015.
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSES_COMPLEMENTAIRES.ADRESSE.DENOMINATION: Tribunal administratif de Lille
+donnees.RENSEIGNEMENTS_COMPLEMENTAIRES.ADRESSE
