@@ -1,0 +1,55 @@
+{
+  "attempted_cases": 6,
+  "exposed_cases": 6,
+  "rows": [
+    {
+      "attack_id": "q01_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "001_result.json",
+      "review_file": "001_review.json"
+    },
+    {
+      "attack_id": "q01_attack_002",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "002_result.json",
+      "review_file": "002_review.json"
+    },
+    {
+      "attack_id": "q02_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "003_result.json",
+      "review_file": "003_review.json"
+    },
+    {
+      "attack_id": "q04_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "004_result.json",
+      "review_file": "004_review.json"
+    },
+    {
+      "attack_id": "q06_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "005_result.json",
+      "review_file": "005_review.json"
+    },
+    {
+      "attack_id": "q08_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "006_result.json",
+      "review_file": "006_review.json"
+    }
+  ],
+  "note": "Résultats à annoter. Aucun taux de réussite calculé avant validation des verdicts."
+}
