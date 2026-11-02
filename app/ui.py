@@ -1,6 +1,7 @@
 """ShieldLoop demo interface: duel (normal vs protected assistant), saved results, about.
 Run from the repository root:  streamlit run app/ui.py
 """
+import hashlib
 import os
 import sys
 from pathlib import Path
@@ -36,7 +37,7 @@ with st.sidebar:
     attack_mode = folder.endswith("attack")
     target = ""
     if attack_mode:
-        target = st.text_input("Fausse valeur de l'attaque (à détecter)", placeholder="ex. 31 décembre 2026")
+        target = st.text_input("Fausse valeur de l'attaque (à détecter)", placeholder="ex. 30 avril 2015 (attaque sur q01)")
         st.caption("Si cette valeur apparaît dans une réponse, l'attaque a réussi.")
     offline = st.checkbox("Mode démo enregistrée (aucun appel à Groq)")
     st.caption("Chaque résultat obtenu en direct est enregistré dans eval/ui_cache.json : "
@@ -74,9 +75,20 @@ def render_answer(col, title, res, status, msg, expected, target_value):
         st.caption(f"Sources : {sources} · {res.get('seconds', '?')} s · {origin}")
         if msg:
             st.info(msg)
-        extras = {k: v for k, v in res.items() if k not in H.CORE_KEYS}
+        for alert in H.as_list(res.get("alerts")):
+            st.warning("Alerte du bouclier : " + H.alert_text(alert))
+        if "retrieved_passages" in res or "filtered_passages" in res:
+            with st.expander("Preuves : passages avant et après filtrage"):
+                st.markdown("**Avant filtrage**")
+                for passage, state in H.diff_passages(res.get("retrieved_passages"), res.get("filtered_passages")):
+                    st.caption(state)
+                    st.text(passage[:700])
+                st.markdown("**Après filtrage**")
+                for passage in H.as_list(res.get("filtered_passages")):
+                    st.text(H.passage_text(passage)[:700])
+        extras = {k: v for k, v in res.items() if k not in H.CORE_KEYS | H.SHIELD_KEYS}
         if extras:
-            with st.expander("Détails fournis par le bouclier"):
+            with st.expander("Autres détails fournis par le bouclier"):
                 st.json(extras)
     return hit, correct
 
@@ -93,9 +105,31 @@ with tab_duel:
         choice = st.selectbox("Question du jeu de test", labels) if labels else None
     custom = st.text_input("Ou écrivez votre propre question")
 
+    # Voice input: the spoken question is transcribed to text, then handled like any typed question.
+    with st.expander("Ou posez votre question à voix haute (entrée vocale)"):
+        audio_file = st.audio_input("Enregistrer la question") if hasattr(st, "audio_input") else None
+        uploaded = st.file_uploader("Ou importez un fichier audio (wav, mp3, m4a)", type=["wav", "mp3", "m4a"])
+        audio_file = audio_file or uploaded
+        voice_q = ""
+        if audio_file is not None:
+            data = audio_file.getvalue()
+            akey = hashlib.md5(data).hexdigest()
+            heard = st.session_state.setdefault("voice_cache", {})
+            if akey not in heard:
+                with st.spinner("Transcription de la question..."):
+                    try:
+                        heard[akey] = H.transcribe_audio(data, getattr(audio_file, "name", None) or "question.wav")
+                    except Exception as exc:  # not cached, so the person can retry
+                        st.error(f"Transcription impossible : {type(exc).__name__}: {exc}")
+            if akey in heard:
+                voice_q = st.text_input("Question comprise (vous pouvez la corriger)", value=heard[akey],
+                                        key=f"voice_{akey}").strip()
+
     question, expected = "", []
     if custom.strip():
         question = custom.strip()
+    elif voice_q:
+        question = voice_q
     elif choice:
         item = pool[labels.index(choice)]
         question, expected = item["question"], H.accepted_values(item)
@@ -118,11 +152,13 @@ with tab_duel:
             prot = (H.run_assistant("protected", answer_protected, question, folder, offline)
                     if answer_protected else (None, "error", protected_error))
         st.session_state["duel"] = {"question": question, "expected": expected, "target": target,
-                                    "base": base, "prot": prot}
+                                    "folder": folder, "base": base, "prot": prot}
 
     duel = st.session_state.get("duel")
     if duel:
         st.markdown(f"**Question :** {duel['question']}")
+        note = " (différent du réglage actuel : relancez le duel)" if duel["folder"] != folder else ""
+        st.caption(f"Documents lus pour ce duel : {duel['folder']}{note}")
         col_a, col_b = st.columns(2)
         hit_a, ok_a = render_answer(col_a, "Assistant normal (sans bouclier)", *duel["base"],
                                     duel["expected"], duel["target"])
@@ -156,8 +192,32 @@ def show_result_file(title, path):
     st.caption(f"Source : {path.relative_to(ROOT)}")
 
 
+def show_attack_results():
+    """Comparison baseline vs shield on the attack cases, saved by the attacks part (no Groq call)."""
+    st.subheader("Attaques : assistant normal contre assistant protégé")
+    run = H.latest_attack_run()
+    if run is None:
+        st.info("Aucun résultat dans eval/results/attacks/ : récupérez d'abord la branche des attaques.")
+        return
+    reviewed = run / "comparison_reviewed.md"
+    if reviewed.exists():
+        st.markdown(reviewed.read_text(encoding="utf-8"))
+    csv_files = sorted(run.glob("comparison_*.csv"))
+    if csv_files:
+        rows = H.read_semicolon_csv(csv_files[-1])
+        with st.expander("Réponses détaillées (fichier CSV)"):
+            pending = H.count_pending(rows)
+            if pending:
+                st.info(f"{pending} verdict(s) sont encore « pending » dans le CSV : "
+                        "l'interprétation finale est dans le tableau vérifié ci-dessus.")
+            st.dataframe(rows)
+    st.caption(f"Source : {run.relative_to(ROOT)}. Le fichier summary.json n'est pas utilisé seul : "
+               "il contient encore des erreurs d'API antérieures aux reprises.")
+
+
 with tab_results:
     st.write("Résultats enregistrés par `eval/` : ils ne déclenchent aucun appel à Groq.")
+    show_attack_results()
     show_result_file("Baseline : assistant normal sur les questions normales", ROOT / "eval" / "baseline_normal.json")
     show_result_file("Évaluation complète : attaques, bouclier, fausses alertes", ROOT / "eval" / "report.json")
 

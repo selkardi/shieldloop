@@ -81,6 +81,27 @@ def call_assistant(fn, question: str, folder: str | None = None) -> dict:
     return fn(question, **kwargs)
 
 
+# ---------- voice input (speech -> text, via Groq's Whisper) ----------
+TRANSCRIBE_MODEL = "whisper-large-v3-turbo"   # if Groq refuses it, try "whisper-large-v3"
+
+
+def transcribe_audio(data: bytes, filename: str = "question.wav", language: str = "fr") -> str:
+    """Turn a recorded question into text. The text then goes through the normal pipeline."""
+    import os
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(ROOT / ".env")
+    except Exception:
+        pass
+    key = os.environ.get("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError("GROQ_API_KEY manquante dans le fichier .env")
+    from openai import OpenAI
+    client = OpenAI(api_key=key, base_url="https://api.groq.com/openai/v1")
+    result = client.audio.transcriptions.create(model=TRANSCRIBE_MODEL, file=(filename, data), language=language)
+    return result.text.strip()
+
+
 def is_rate_limit(exc: Exception) -> bool:
     text = f"{type(exc).__name__} {exc}".lower()
     return "ratelimit" in text or "rate limit" in text or "429" in text
