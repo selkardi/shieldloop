@@ -262,20 +262,7 @@ Le bouclier est aussi interrogé sur des documents propres, sans injection.
 | Les dates limites sont contrôlées après génération | Le contrôle des montants, départements ou acheteurs |
 | Aucun ralentissement visible (≈ 1 s) | Une mesure de performance contrôlée |
 
-### **4.7 Reproduire les mesures**
 
-Les recalculs se font hors ligne : ils ne consomment pas de quota Groq.
-
-```bash
-python eval/check_retrieval.py
-python eval/metrics_rag.py
-python eval/scripts/calculate_metrics.py --attacks "eval/results/attacks/20261103T100444_427409Z_df9bb98b" --normal "eval/results/normal_questions/candidate_20261102T224952_041800Z_8bed5e53" --reviews "eval/results/metrics/20261103T125327_545641Z_2c716d30/reviews.csv"
-python eval/scripts/calculate_metrics.py --attacks "eval/results/attacks/20261103T113943_877052Z_93dade4e" --reviews "eval/results/metrics/20261103T192446_969048Z_ac95af84/reviews.csv"
-```
-
-Rapports de référence : `eval/results/metrics/20261103T125327_545641Z_2c716d30/report.md` (développement et questions normales) et `eval/results/metrics/20261103T192446_969048Z_ac95af84/report.md` (réservé).
-
----
 
 ## **5. Limites**
 
