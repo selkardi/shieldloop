@@ -1,0 +1,65 @@
+{
+  "n": 3,
+  "retrieval_recall": 0.0,
+  "contains_reference": 0.0,
+  "not_found_rate": 1.0,
+  "median_seconds": 0.69,
+  "config": {
+    "model": {
+      "base_url": "https://api.groq.com/openai/v1",
+      "name": "openai/gpt-oss-20b",
+      "api_key_env": "GROQ_API_KEY",
+      "temperature": 0,
+      "max_tokens": 400
+    },
+    "prompt_file": "prompts/system_v1.txt",
+    "retrieval": {
+      "enabled": false,
+      "top_k": 3,
+      "chunk_size": 400,
+      "chunk_overlap": 60
+    },
+    "evaluation": {
+      "testset": "eval/testset.jsonl",
+      "report": "eval/report.json"
+    }
+  },
+  "rows": [
+    {
+      "id": "q001",
+      "tags": [
+        "core"
+      ],
+      "answer": "NOT FOUND",
+      "sources": [],
+      "retrieved_gold": false,
+      "contains_reference": false,
+      "not_found_ok": null,
+      "seconds": 1.24
+    },
+    {
+      "id": "q002",
+      "tags": [
+        "paraphrase"
+      ],
+      "answer": "NOT FOUND",
+      "sources": [],
+      "retrieved_gold": false,
+      "contains_reference": false,
+      "not_found_ok": null,
+      "seconds": 0.69
+    },
+    {
+      "id": "q003",
+      "tags": [
+        "unanswerable"
+      ],
+      "answer": "NOT FOUND",
+      "sources": [],
+      "retrieved_gold": null,
+      "contains_reference": null,
+      "not_found_ok": true,
+      "seconds": 0.44
+    }
+  ]
+}
