@@ -3,7 +3,7 @@
 > **Assistant documentaire (RAG) protégé contre l'injection de prompt indirecte**
 > Cas d'étude : avis de marchés publics (BTP et services)
 
-**Équipe :** Wiam (RAG et données) · Noemi (attaques, bouclier, évaluation) · Sara (interface)
+**Équipe :** Wiam · Noemi· Sara 
 **Date :** 3 novembre 2026
 
 | **25** avis réels | **33** questions normales | **20 + 10** attaques | **3** couches : détecter · isoler · vérifier |
