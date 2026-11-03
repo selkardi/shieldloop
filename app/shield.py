@@ -5,6 +5,7 @@ import time
 import unicodedata
 
 from app.pipeline import CFG, SYSTEM, client, retrieve
+from app.output_checks import validate_output
 
 
 def normalise(text):
@@ -53,7 +54,7 @@ def detect_block(block):
 # Les avis BOAMP sont structurés en champs "cle: valeur".
 # Ce repère sert au découpage, jamais à accorder une confiance au contenu.
 FIELD_LINE = re.compile(r"^[A-Za-z_][A-Za-z0-9_.-]*[ \t]*:")
-SHIELD_VERSION = "2.0-line-segmentation"
+SHIELD_VERSION = "3.0-line-segmentation-date-check"
 
 
 def _line_reasons(lines, index):
@@ -198,9 +199,12 @@ def answer_protected(question, folder=None):
     else:
         answer = "NOT FOUND"
 
+    checked = validate_output(question, answer, filtered_sources)
+    alerts.extend(checked["output_alerts"])
+
     return {
         "shield_version": SHIELD_VERSION,
-        "answer": answer,
+        **checked,
         "sources": [source["id"] for source in filtered_sources],
         "seconds": round(time.perf_counter() - start, 2),
         "alerts": alerts,

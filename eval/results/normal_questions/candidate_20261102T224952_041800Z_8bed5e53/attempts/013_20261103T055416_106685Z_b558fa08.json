@@ -1,0 +1,20 @@
+{
+  "id": "q14",
+  "case": {
+    "id": "q14",
+    "question": "Quelle procédure de passation est utilisée pour le marché « construction d'un nouveau bâtiment pour accueillir les services de médecine et de soins de suite de… » lancé par Hopital la rochefoucauld ?",
+    "gold_source": "ao_07.txt",
+    "answer": "Procédure Ouverte",
+    "accept": [
+      "procédure ouverte"
+    ],
+    "tags": [
+      "normal",
+      "procedure"
+    ]
+  },
+  "tested_at_utc": "2026-11-03T05:54:15.998926+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "1689"
+}

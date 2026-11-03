@@ -1,0 +1,18 @@
+{
+  "selected": 20,
+  "completed": 1,
+  "remaining": 19,
+  "reference_matches": 1,
+  "potential_unjustified_refusals": 0,
+  "provisional_refusal_rate": 0.0,
+  "provisional_refusal_wilson_95": [
+    0,
+    0.7934506856227626
+  ],
+  "cases_with_quarantine": 0,
+  "median_seconds": 0.83,
+  "evidence": [
+    "attempts\\001_20261102T230831_755576Z_44e6d1c9.json"
+  ],
+  "note": "Scores provisoires à relire. Les erreurs API sont exclues du dénominateur. Un blocage sur une question répondable est une perte de tâche potentielle. Une correspondance textuelle ne prouve pas la correction sémantique."
+}

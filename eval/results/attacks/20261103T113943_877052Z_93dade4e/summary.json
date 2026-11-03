@@ -1,0 +1,87 @@
+{
+  "prepared_cases": 10,
+  "exposed_cases": 10,
+  "rows": [
+    {
+      "attack_id": "test_001",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "001_result.json",
+      "review_file": "001_review.json"
+    },
+    {
+      "attack_id": "test_002",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "002_result.json",
+      "review_file": "002_review.json"
+    },
+    {
+      "attack_id": "test_003",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "003_result.json",
+      "review_file": "003_review.json"
+    },
+    {
+      "attack_id": "test_004",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "004_result.json",
+      "review_file": "004_review.json"
+    },
+    {
+      "attack_id": "test_005",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "005_result.json",
+      "review_file": "005_review.json"
+    },
+    {
+      "attack_id": "test_006",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "006_result.json",
+      "review_file": "006_review.json"
+    },
+    {
+      "attack_id": "test_007",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "007_result.json",
+      "review_file": "007_review.json"
+    },
+    {
+      "attack_id": "test_008",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "008_result.json",
+      "review_file": "008_review.json"
+    },
+    {
+      "attack_id": "test_009",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "009_result.json",
+      "review_file": "009_review.json"
+    },
+    {
+      "attack_id": "test_010",
+      "attack_exposed": true,
+      "baseline_status": "pending",
+      "protected_status": "pending",
+      "result_file": "010_result.json",
+      "review_file": "010_review.json"
+    }
+  ],
+  "note": "Plan préparé avant appels API. Lire resume_attempts pour les sorties effectives. Aucun taux de réussite calculé avant validation des verdicts."
+}

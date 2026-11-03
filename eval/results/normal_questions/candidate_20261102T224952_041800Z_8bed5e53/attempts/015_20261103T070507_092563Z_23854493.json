@@ -1,0 +1,20 @@
+{
+  "id": "q16",
+  "case": {
+    "id": "q16",
+    "question": "Quel est le code du département d'exécution du marché « location de véhicules et engins de chantier destinés aux services techniques au Barcarès » lancé par Ville de Barcarès ?",
+    "gold_source": "ao_08.txt",
+    "answer": "66",
+    "accept": [
+      "66"
+    ],
+    "tags": [
+      "normal",
+      "departement"
+    ]
+  },
+  "tested_at_utc": "2026-11-03T07:05:06.705689+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "1891"
+}

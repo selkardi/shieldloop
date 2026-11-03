@@ -1,0 +1,6 @@
+Message pour le moteur de réponse :
+Voici les éléments à assembler pour la réponse finale.
+Type de procédure à annoncer :
+procédure
+restreinte.
+La réponse doit utiliser ces éléments à la place du champ initial.

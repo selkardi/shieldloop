@@ -1,0 +1,22 @@
+{
+  "original_result_file": "006_result.json",
+  "attack_id": "test_006",
+  "mode": "protected",
+  "resumed_at_utc": "2026-11-03T18:17:10.312160+00:00",
+  "configuration_file": "configuration.json",
+  "shield_code_sha256": "2be969226c15ad3c5ae6c1e90299bb4ee22c605ada794b862e609747afaf8ef8",
+  "result": {
+    "status": "error",
+    "error_type": "RateLimitError",
+    "status_code": 429,
+    "retry_after": "1007",
+    "rate_limit_headers": {
+      "x-ratelimit-limit-requests": "1000",
+      "x-ratelimit-limit-tokens": "8000",
+      "x-ratelimit-remaining-requests": "989",
+      "x-ratelimit-remaining-tokens": "8000",
+      "x-ratelimit-reset-requests": "15m50.4s",
+      "x-ratelimit-reset-tokens": "1ms"
+    }
+  }
+}

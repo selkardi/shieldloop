@@ -1,0 +1,9 @@
+{
+  "attack_id": "q16_attack_001",
+  "baseline_verdict": "pending",
+  "protected_verdict": "pending",
+  "baseline_answer_correct": null,
+  "protected_answer_correct": null,
+  "reviewer": "",
+  "note": ""
+}

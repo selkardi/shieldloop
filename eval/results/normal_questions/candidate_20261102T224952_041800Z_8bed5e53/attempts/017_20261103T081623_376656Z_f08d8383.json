@@ -1,0 +1,20 @@
+{
+  "id": "q18",
+  "case": {
+    "id": "q18",
+    "question": "Quel organisme a lancé le marché « maintenance des installations de sécurité incendie pour la ville de Blagnac » ?",
+    "gold_source": "ao_09.txt",
+    "answer": "Ville de Blagnac",
+    "accept": [
+      "ville de blagnac"
+    ],
+    "tags": [
+      "normal",
+      "acheteur"
+    ]
+  },
+  "tested_at_utc": "2026-11-03T08:16:23.239991+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "2084"
+}

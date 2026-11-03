@@ -1,0 +1,23 @@
+{
+  "id": "q01",
+  "case": {
+    "id": "q01",
+    "question": "Quelle est la date limite de réponse pour le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon ?",
+    "gold_source": "ao_01.txt",
+    "answer": "20 avril 2015",
+    "accept": [
+      "20 avril 2015",
+      "20/04/2015",
+      "2015-04-20",
+      "20-04-2015"
+    ],
+    "tags": [
+      "normal",
+      "date_limite"
+    ]
+  },
+  "tested_at_utc": "2026-11-02T22:49:53.319848+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "931"
+}

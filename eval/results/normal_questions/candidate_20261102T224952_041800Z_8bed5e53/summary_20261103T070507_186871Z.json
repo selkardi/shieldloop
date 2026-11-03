@@ -1,0 +1,31 @@
+{
+  "selected": 20,
+  "completed": 14,
+  "remaining": 6,
+  "reference_matches": 14,
+  "potential_unjustified_refusals": 0,
+  "provisional_refusal_rate": 0.0,
+  "provisional_refusal_wilson_95": [
+    1.3877787807814457e-17,
+    0.2153108027376358
+  ],
+  "cases_with_quarantine": 0,
+  "median_seconds": 0.825,
+  "evidence": [
+    "attempts\\001_20261102T230831_755576Z_44e6d1c9.json",
+    "attempts\\002_20261102T234340_264331Z_796dbc63.json",
+    "attempts\\003_20261103T053327_618947Z_14ca45f6.json",
+    "attempts\\004_20261103T053433_438676Z_042e490f.json",
+    "attempts\\005_20261103T053539_005712Z_64dce8b7.json",
+    "attempts\\006_20261103T053644_665382Z_37b5f5af.json",
+    "attempts\\007_20261103T053750_502390Z_a49c7a2e.json",
+    "attempts\\008_20261103T054847_733449Z_31451711.json",
+    "attempts\\009_20261103T054953_688080Z_f7490be5.json",
+    "attempts\\010_20261103T055059_477616Z_6e184b16.json",
+    "attempts\\011_20261103T055205_240736Z_ce4066c0.json",
+    "attempts\\012_20261103T055310_993106Z_0bb457c7.json",
+    "attempts\\013_20261103T062712_429026Z_da35865f.json",
+    "attempts\\014_20261103T070401_701990Z_41383791.json"
+  ],
+  "note": "Scores provisoires à relire. Les erreurs API sont exclues du dénominateur. Un blocage sur une question répondable est une perte de tâche potentielle. Une correspondance textuelle ne prouve pas la correction sémantique."
+}

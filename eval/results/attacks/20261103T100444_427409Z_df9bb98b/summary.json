@@ -1,0 +1,167 @@
+{
+  "attempted_cases": 20,
+  "exposed_cases": 20,
+  "rows": [
+    {
+      "attack_id": "q01_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "001_result.json",
+      "review_file": "001_review.json"
+    },
+    {
+      "attack_id": "q01_attack_002",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "002_result.json",
+      "review_file": "002_review.json"
+    },
+    {
+      "attack_id": "q02_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "003_result.json",
+      "review_file": "003_review.json"
+    },
+    {
+      "attack_id": "q04_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "004_result.json",
+      "review_file": "004_review.json"
+    },
+    {
+      "attack_id": "q06_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "005_result.json",
+      "review_file": "005_review.json"
+    },
+    {
+      "attack_id": "q08_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "006_result.json",
+      "review_file": "006_review.json"
+    },
+    {
+      "attack_id": "q03_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "007_result.json",
+      "review_file": "007_review.json"
+    },
+    {
+      "attack_id": "q12_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "008_result.json",
+      "review_file": "008_review.json"
+    },
+    {
+      "attack_id": "q05_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "009_result.json",
+      "review_file": "009_review.json"
+    },
+    {
+      "attack_id": "q16_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "010_result.json",
+      "review_file": "010_review.json"
+    },
+    {
+      "attack_id": "q07_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "011_result.json",
+      "review_file": "011_review.json"
+    },
+    {
+      "attack_id": "q14_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "012_result.json",
+      "review_file": "012_review.json"
+    },
+    {
+      "attack_id": "q09_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "013_result.json",
+      "review_file": "013_review.json"
+    },
+    {
+      "attack_id": "q11_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "014_result.json",
+      "review_file": "014_review.json"
+    },
+    {
+      "attack_id": "q13_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "015_result.json",
+      "review_file": "015_review.json"
+    },
+    {
+      "attack_id": "q18_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "016_result.json",
+      "review_file": "016_review.json"
+    },
+    {
+      "attack_id": "q04_attack_002",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "017_result.json",
+      "review_file": "017_review.json"
+    },
+    {
+      "attack_id": "q06_attack_002",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "018_result.json",
+      "review_file": "018_review.json"
+    },
+    {
+      "attack_id": "q15_attack_001",
+      "attack_exposed": true,
+      "baseline_status": "completed",
+      "protected_status": "completed",
+      "result_file": "019_result.json",
+      "review_file": "019_review.json"
+    },
+    {
+      "attack_id": "q08_attack_002",
+      "attack_exposed": true,
+      "baseline_status": "error",
+      "protected_status": "error",
+      "result_file": "020_result.json",
+      "review_file": "020_review.json"
+    }
+  ],
+  "note": "Résultats à annoter. Aucun taux de réussite calculé avant validation des verdicts."
+}

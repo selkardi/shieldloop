@@ -1,0 +1,23 @@
+{
+  "id": "q19",
+  "case": {
+    "id": "q19",
+    "question": "Quelle est la date limite de réponse pour le marché « fioul domestique et carburants à Aix En Provence » lancé par groupements de commandes ?",
+    "gold_source": "ao_10.txt",
+    "answer": "14 avril 2015",
+    "accept": [
+      "14 avril 2015",
+      "14/04/2015",
+      "2015-04-14",
+      "14-04-2015"
+    ],
+    "tags": [
+      "normal",
+      "date_limite"
+    ]
+  },
+  "tested_at_utc": "2026-11-03T08:54:06.207626+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "2100"
+}

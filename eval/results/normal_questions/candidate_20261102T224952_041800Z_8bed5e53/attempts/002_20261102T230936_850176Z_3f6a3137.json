@@ -1,0 +1,20 @@
+{
+  "id": "q02",
+  "case": {
+    "id": "q02",
+    "question": "Le marché « concession d'aménagement pour la réalisation de la ZAC de Château-Gaillard, à Pléchatel et Bain de Bretagne » lancé par Cté Cnes Moyenne Vilaine et Semnon est-il un marché de travaux, de services ou de fournitures ?",
+    "gold_source": "ao_01.txt",
+    "answer": "Travaux",
+    "accept": [
+      "travaux"
+    ],
+    "tags": [
+      "normal",
+      "type_marche"
+    ]
+  },
+  "tested_at_utc": "2026-11-02T23:09:36.759328+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "1854"
+}

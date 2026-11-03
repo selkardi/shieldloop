@@ -1,0 +1,23 @@
+{
+  "id": "q03",
+  "case": {
+    "id": "q03",
+    "question": "Quelle est la date limite de réponse pour le marché « Exploitation des installations de chauffage et de production d'eau chaude sanitaire des bâtiments communaux à… » lancé par Ville de Villepinte ?",
+    "gold_source": "ao_02.txt",
+    "answer": "17 avril 2015",
+    "accept": [
+      "17 avril 2015",
+      "17/04/2015",
+      "2015-04-17",
+      "17-04-2015"
+    ],
+    "tags": [
+      "normal",
+      "date_limite"
+    ]
+  },
+  "tested_at_utc": "2026-11-02T23:44:45.267783+00:00",
+  "status": "error",
+  "error_type": "RateLimitError",
+  "retry_after": "1962"
+}

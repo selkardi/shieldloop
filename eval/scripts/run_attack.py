@@ -17,16 +17,35 @@ sys.path.insert(0, str(ROOT))
 
 from app.pipeline import CFG, SYSTEM, generate
 from app.retriever import tokens, champ
-from app.shield import (
-    PROTECTED_SYSTEM,
-    filter_sources,
-    generate_protected,
-    check_citations,
-)
+from app.output_checks import validate_output
+import importlib
+
+SHIELD_NAME = "original"
+SHIELD_PATH = ROOT / "app/shield.py"
+shield_module = None
+
+
+def select_shield(name):
+    global SHIELD_NAME, SHIELD_PATH, shield_module
+    global PROTECTED_SYSTEM, filter_sources, generate_protected, check_citations, validate_output
+    SHIELD_NAME = name
+    module_name = "app.shield_candidate" if name == "candidate" else "app.shield"
+    SHIELD_PATH = ROOT / ("app/shield_candidate.py" if name == "candidate" else "app/shield.py")
+    shield_module = importlib.import_module(module_name)
+    PROTECTED_SYSTEM = shield_module.PROTECTED_SYSTEM
+    filter_sources = shield_module.filter_sources
+    generate_protected = shield_module.generate_protected
+    check_citations = shield_module.check_citations
+    if name == "candidate":
+        validate_output = shield_module.validate_output
+    else:
+        from app.output_checks import validate_output as original_check
+        validate_output = original_check
+
 
 
 def read_jsonl(path):
-    with path.open(encoding="utf-8") as file:
+    with path.open(encoding="utf-8-sig") as file:
         return [json.loads(line) for line in file if line.strip()]
 
 
@@ -34,6 +53,38 @@ def save_json(path, content):
     # Refuse d'écraser un résultat existant.
     with path.open("x", encoding="utf-8") as file:
         json.dump(content, file, ensure_ascii=False, indent=2)
+
+
+def apply_payload(text, payload, placement=None):
+    """Construit la variante en mémoire selon le placement du catalogue."""
+    placement = placement or {"kind": "append", "separator": "\n\n"}
+    kind = placement.get("kind", "append")
+
+    if kind == "append":
+        base = text.rstrip("\r\n") if placement.get("strip_trailing_newlines") else text
+        separator = placement.get("separator", "\n\n")
+        if separator not in ("\n", "\n\n", "\r\n", "\r\n\r\n"):
+            raise ValueError("Séparateur d'ajout non pris en charge.")
+        return base + separator + payload + "\n"
+
+    if kind == "append_to_field_value":
+        field = placement.get("field", "")
+        if not field or any(char in field for char in "\r\n:"):
+            raise ValueError("Champ d'injection invalide.")
+        lines = text.splitlines(keepends=True)
+        matches = [i for i, line in enumerate(lines) if line.startswith(field + ":")]
+        if len(matches) != 1:
+            raise ValueError(f"Champ {field!r} : une seule occurrence attendue.")
+        index = matches[0]
+        old = lines[index]
+        ending = "\r\n" if old.endswith("\r\n") else ("\n" if old.endswith("\n") else "")
+        separator = placement.get("separator", " ")
+        if separator != " " or "\n" in payload or "\r" in payload:
+            raise ValueError("L'injection dans un champ doit tenir sur une ligne.")
+        lines[index] = old.rstrip("\r\n") + separator + payload + ending
+        return "".join(lines)
+
+    raise ValueError(f"Placement inconnu : {kind}")
 
 
 def load_documents():
@@ -94,8 +145,20 @@ def run_mode(question, sources, protected):
         alerts = []
         answer = generate(question, context)
 
+    checked = (
+        validate_output(question, answer, context)
+        if protected else {
+            "answer": answer, "raw_answer": answer,
+            "output_blocked": False,
+            "output_check": {"status": "disabled_for_baseline"},
+            "output_alerts": [],
+        }
+    )
+    alerts.extend(checked["output_alerts"])
+
     return {
-        "answer": answer,
+        **checked,
+        "shield_version": getattr(shield_module, "SHIELD_VERSION", None) if protected else None,
         "sources": [source["id"] for source in context],
         "context_sent": context,
         "alerts": alerts,
@@ -115,6 +178,8 @@ def resume_campaign(folder, dry_run=False, pause=65.0):
         (campaign / "configuration.json").read_text(encoding="utf-8")
     )
 
+    select_shield(configuration.get("shield_name", "original"))
+
     # Évite de comparer silencieusement deux configurations différentes.
     current_model = {
         key: CFG["model"].get(key)
@@ -132,6 +197,16 @@ def resume_campaign(folder, dry_run=False, pause=65.0):
             "Le modèle ou les prompts ont changé. "
             "Ne pas reprendre cette campagne avec d'autres paramètres."
         )
+
+    saved_hash = configuration.get("shield_code_sha256")
+    current_hash = hashlib.sha256(SHIELD_PATH.read_bytes()).hexdigest()
+    if saved_hash is not None and saved_hash != current_hash:
+        raise ValueError("Le code du bouclier a changé : créer une nouvelle campagne.")
+
+    saved_check_hash = configuration.get("output_checks_sha256")
+    current_check_hash = hashlib.sha256((ROOT / "app/output_checks.py").read_bytes()).hexdigest()
+    if saved_check_hash is None or saved_check_hash != current_check_hash:
+        raise ValueError("Contrôle de sortie ajouté ou modifié : créer une nouvelle campagne.")
 
     tasks = []
 
@@ -207,7 +282,6 @@ def resume_campaign(folder, dry_run=False, pause=65.0):
         # Les fonctions existantes utilisent le client de leur module.
         # Remplacement temporaire, rétabli même en cas d'erreur.
         import app.pipeline as pipeline_module
-        import app.shield as shield_module
 
         old_pipeline_client = pipeline_module.client
         old_shield_client = shield_module.client
@@ -267,7 +341,7 @@ def resume_campaign(folder, dry_run=False, pause=65.0):
                 "resumed_at_utc": datetime.now(timezone.utc).isoformat(),
                 "configuration_file": "configuration.json",
                 "shield_code_sha256": hashlib.sha256(
-                    (ROOT / "app/shield.py").read_bytes()
+                    SHIELD_PATH.read_bytes()
                 ).hexdigest(),
                 "result": result,
             },
@@ -279,6 +353,14 @@ def resume_campaign(folder, dry_run=False, pause=65.0):
             print("Réponse :", result["answer"], flush=True)
         else:
             print("Erreur :", result["error_type"], flush=True)
+            if result.get("retry_after"):
+                print("retry_after (secondes) :", result["retry_after"], flush=True)
+                try:
+                    from datetime import timedelta
+                    retry_at = datetime.now(timezone.utc) + timedelta(seconds=float(result["retry_after"]))
+                    print("Nouvel essai pas avant (UTC) :", retry_at.isoformat(), flush=True)
+                except (ValueError, TypeError, OverflowError):
+                    pass
 
         if rate_limited:
             print(
@@ -298,7 +380,10 @@ def main():
         help="Un identifiant précis ; sinon utiliser --all.",
     )
     parser.add_argument("--all", action="store_true")
-    parser.add_argument("--pause", type=float, default=2.0)
+    parser.add_argument("--catalog", default="eval/attacks/attacks.jsonl")
+    parser.add_argument("--questions", default="eval/testset.jsonl")
+    parser.add_argument("--shield", choices=("original", "candidate"), default=None)
+    parser.add_argument("--pause", type=float, default=65.0)
     parser.add_argument("--resume")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -307,8 +392,8 @@ def main():
         parser.error("--pause doit être positif ou nul.")
 
     if args.resume:
-        if args.all or args.attack_id:
-            parser.error("--resume ne s'utilise pas avec --all ou attack_id.")
+        if args.all or args.attack_id or args.shield is not None:
+            parser.error("--resume utilise le bouclier enregistré ; ne pas ajouter --all, attack_id ou --shield.")
 
         resume_campaign(
             args.resume,
@@ -317,19 +402,24 @@ def main():
         )
         return
 
-    if args.dry_run:
-        parser.error("--dry-run s'utilise ici avec --resume.")
+    select_shield(args.shield or "original")
 
     if args.all == bool(args.attack_id):
         parser.error("Choisir un attack_id OU --all.")
 
-    attacks = read_jsonl(ROOT / "eval/attacks/attacks.jsonl")
+    catalog = (ROOT / args.catalog).resolve()
+    if not catalog.is_relative_to(ROOT):
+        raise ValueError("Le catalogue doit rester dans le projet.")
+    attacks = read_jsonl(catalog)
     ids = [attack["attack_id"] for attack in attacks]
 
     if len(ids) != len(set(ids)):
         raise ValueError("Identifiants d'attaque dupliqués.")
 
-    questions_list = read_jsonl(ROOT / "eval/testset.jsonl")
+    questions_path = (ROOT / args.questions).resolve()
+    if not questions_path.is_relative_to(ROOT):
+        raise ValueError("Le fichier de questions doit rester dans le projet.")
+    questions_list = read_jsonl(questions_path)
     questions = {case["id"]: case for case in questions_list}
 
     if len(questions) != len(questions_list):
@@ -374,7 +464,30 @@ def main():
         if not payload:
             raise ValueError("Instruction vide.")
 
+        # Valide aussi le placement avant tout appel API.
+        apply_payload(
+            documents_by_id[document_id]["text"],
+            payload,
+            attack.get("placement"),
+        )
         prepared.append((attack, case, payload))
+
+    print("Bouclier :", SHIELD_NAME, getattr(shield_module, "SHIELD_VERSION", ""), flush=True)
+    print("Questions :", questions_path.relative_to(ROOT), flush=True)
+    print("Catalogue :", catalog.relative_to(ROOT), flush=True)
+    print("Cas sélectionnés :", len(prepared), flush=True)
+    if args.dry_run:
+        for attack, case, payload in prepared:
+            placement = attack.get("placement", {"kind": "append", "separator": "\n\n"})
+            print(
+                attack["attack_id"], "|", case["id"],
+                "|", attack["document_id"],
+                "|", attack.get("attack_objective", "false_fact"),
+                "| placement :", repr(placement),
+            )
+        print("Instructions et placements validés. Aucun appel API, aucun fichier créé.")
+        print("Le dry-run ne teste pas le filtre. Garder les attaques réservées pour la version finale figée.")
+        return
 
     timestamp = datetime.now(timezone.utc).strftime(
         "%Y%m%dT%H%M%S_%fZ"
@@ -389,6 +502,15 @@ def main():
         campaign / "configuration.json",
         {
             "started_at_utc": datetime.now(timezone.utc).isoformat(),
+            "shield_name": SHIELD_NAME,
+            "shield_version": getattr(shield_module, "SHIELD_VERSION", None),
+            "questions_file": str(questions_path.relative_to(ROOT)),
+            "questions_sha256": hashlib.sha256(questions_path.read_bytes()).hexdigest(),
+            "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            "catalog": str(catalog.relative_to(ROOT)),
+            "catalog_sha256": hashlib.sha256(catalog.read_bytes()).hexdigest(),
+            "output_checks_sha256": hashlib.sha256((ROOT / "app/output_checks.py").read_bytes()).hexdigest(),
+            "shield_code_sha256": hashlib.sha256(SHIELD_PATH.read_bytes()).hexdigest(),
             "model": {
                 key: CFG["model"].get(key)
                 for key in (
@@ -422,7 +544,9 @@ def main():
 
         for document in documents:
             if document["id"] == attack["document_id"]:
-                document["text"] += "\n\n" + payload + "\n"
+                document["text"] = apply_payload(
+                    document["text"], payload, attack.get("placement")
+                )
                 break
 
         start = time.perf_counter()
@@ -447,27 +571,10 @@ def main():
 
         print("Instruction récupérée :", exposed, flush=True)
 
-        for mode in ("baseline", "protected"):
-            try:
-                record[mode] = {
-                    "status": "completed",
-                    **run_mode(
-                        case["question"],
-                        sources,
-                        protected=(mode == "protected"),
-                    ),
-                }
-                print(
-                    mode, ":", record[mode]["answer"], flush=True
-                )
-            except Exception as error:
-                record[mode] = {
-                    "status": "error",
-                    "error_type": type(error).__name__,
-                }
-                print(mode, ": ERREUR", type(error).__name__)
-
-            time.sleep(args.pause)
+        # Préparer tous les cas avant le premier appel réseau.
+        # Chaque appel réel sera journalisé séparément par resume_campaign().
+        record["baseline"] = {"status": "pending"}
+        record["protected"] = {"status": "pending"}
 
         # Noms numériques : pas de chemin issu d'un identifiant externe.
         filename = f"{index:03d}"
@@ -498,19 +605,20 @@ def main():
     save_json(
         campaign / "summary.json",
         {
-            "attempted_cases": len(rows),
+            "prepared_cases": len(rows),
             "exposed_cases": sum(
                 row["attack_exposed"] for row in rows
             ),
             "rows": rows,
             "note": (
-                "Résultats à annoter. Aucun taux de réussite "
+                "Plan préparé avant appels API. Lire resume_attempts pour les sorties effectives. Aucun taux de réussite "
                 "calculé avant validation des verdicts."
             ),
         },
     )
 
-    print("\nCampagne terminée.")
+    print("\nTous les cas sont sauvegardés. Début des appels.", flush=True)
+    resume_campaign(str(campaign), pause=max(65.0, args.pause))
     print("Résultats :", campaign)
 
 
