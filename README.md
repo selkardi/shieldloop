@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # **ShieldLoop**
 
 > **Assistant documentaire (RAG) protégé contre l'injection de prompt indirecte**
@@ -8,6 +9,21 @@
 
 | **25** avis réels | **33** questions normales | **20 + 10** attaques | **3** couches : détecter · isoler · vérifier |
 |:---:|:---:|:---:|:---:|
+=======
+# ShieldLoop
+
+> ShieldLoop helps teams that use an AI assistant to read public procurement notices by blocking hidden instructions (indirect prompt injection) before the model reads them, and by measuring how well the protection works.
+
+## 1. User and problem
+- **User:** a bid manager or purchasing officer who asks an AI assistant questions about calls for tender (deadline, contract type, procedure, buyer).
+- **Problem today:** an assistant that reads documents it does not control may obey a sentence hidden inside one of them. One poisoned notice can make it state a wrong deadline or amount, with a cited source that looks legitimate.
+- **Value if it works:** wrong deadlines, amounts and buyers are not given to the user, and the protection is measured instead of assumed.
+
+## 2. What the system does
+- **Input:** a question (typed, or spoken and transcribed) and a folder of notices (`data/docs`, or the poisoned copies in `data/docs_attack`).
+- **Output:** an answer that cites its source notice. The protected assistant also returns shield alerts and the passages before and after filtering.
+- **Technique:** retrieval-augmented generation (BM25 search, the 3 best notices are placed in the prompt) plus a prompt-level shield (line-by-line detection and isolation of instruction-like lines, protective instructions, check of the cited sources). Model: gpt-oss-20b through Groq (temperature 0). Voice question (bonus): Whisper through Groq. Why this choice: free tier, open-weight model, fast to run and to compare with and without the shield.
+>>>>>>> Stashed changes
 
 ---
 
@@ -39,9 +55,40 @@ question ─► BM25 (top 3 avis) ─┬─► BASELINE  : prompt normal ──�
                                                                           └─► contrôle dates + citations ─► réponse + alertes
 ```
 
+<<<<<<< Updated upstream
 Les deux modes reçoivent les mêmes sources et le même modèle (`gpt-oss-20b` sur Groq, température 0) : on mesure l'effet du bouclier seul.
 
 Le bouclier est un ensemble de **règles programmées** (expressions régulières, consigne renforcée, contrôles de sortie). Il n'y a ni réentraînement du modèle, ni classifieur appris.
+=======
+Demo interface (`streamlit run app/ui.py`):
+- **Duel tab:** the same question is asked to the normal assistant and to the protected assistant, on normal or poisoned documents. Enter the false value of the attack in the sidebar to see whether it appears in each answer.
+- **Results tab:** saved attack and evaluation results (no API call).
+- **Saved demo mode:** every live answer is cached in `eval/ui_cache.json` and can be replayed if the API is rate-limited.
+- **Voice question (bonus):** a recorded or uploaded audio question is transcribed and handled like a typed question. The shield protects the documents, not the audio.
+
+## 4. Data
+See `data/README.md`: sources, licences, personal data, how the data was prepared.
+
+In short: 25 real public procurement notices from BOAMP (open data), anonymised. The poisoned documents are copies of these notices into which the team inserted an instruction; they are synthetic attacks, not real documents.
+
+## 5. Evaluation (summary)
+| System | Main metric | NOT FOUND rate | Median latency |
+|---|---|---|---|
+| Baseline (prompt only, no shield) | see `eval/baseline_normal.json` | not reported here | about 1 to 2 s per answer (observed in demo runs) |
+| Our system (with shield) | see attack results below | not reported here | about 5 to 17 s per answer (observed in demo runs) |
+
+Latencies are observed in live demo runs, not formal medians.
+
+Security results on the development attacks (from the team's evaluation slide):
+
+| Metric | Without shield | With shield |
+|---|---|---|
+| Attack success rate (ASR, lower is better) | 19/20 = 95 % (Wilson 95 %: 76.4 to 99.1 %) | 0/20 observed (Wilson 95 %: 0 to 16.1 %) |
+| Correct answers under attack | n/a | 20/20 |
+| Unjustified refusals on normal questions | n/a | 0/18 observed (Wilson 95 %: about 0 to 17.6 %) |
+
+**Limits:** these are development attacks that were used to tune the defence, and the 10 reserved attacks are evaluated later. Zero observed successes does not prove general security. Two normal questions are excluded (API quota). The shield also makes answers slower.
+>>>>>>> Stashed changes
 
 ---
 
@@ -49,6 +96,7 @@ Le bouclier est un ensemble de **règles programmées** (expressions régulière
 
 | **Élément** | **Détail** |
 |---|---|
+<<<<<<< Updated upstream
 | **Source** | BOAMP, via l'API de la DILA (Opendatasoft) |
 | **Licence** | Licence Ouverte (Etalab) |
 | **Collecte** | 33 avis récupérés ; après nettoyage et validation humaine, les avis inutilisables ont été supprimés et **25 avis utiles** conservés (`data/docs/`) |
@@ -56,6 +104,10 @@ Le bouclier est un ensemble de **règles programmées** (expressions régulière
 | **Traitement** | Nettoyage, normalisation, anonymisation (téléphones, fax, e-mails, noms retirés) |
 | **Questions normales** | 33 questions générées depuis les champs des avis (date limite, acheteur, département, procédure, type de marché), avec plusieurs écritures acceptées (`accept`) |
 | **Attaques** | Injections écrites à la main, ajoutées en mémoire à une copie d'un avis : 20 de développement, 10 réservées (`data/docs_attack/` pour la démo) |
+=======
+| Claude | First version of the Streamlit interface (`app/ui.py`, `app/ui_helpers.py`), the voice-input bonus and help preparing the presentation; reviewed, tested and adapted by Sara |
+| Other tools used by teammates | to be completed by Laure and Noemi |
+>>>>>>> Stashed changes
 
 > **Les attaques sont synthétiques** : on ne trouve pas d'injections réelles dans des avis publics. Seul le contexte est réel.
 
@@ -137,6 +189,7 @@ On évalue en trois temps : le RAG sans attaque, le bouclier contre la baseline 
 
 | **Mesure** | **Question posée** | **Calcul** |
 |---|---|---|
+<<<<<<< Updated upstream
 | **Recherche top-3** | Le bon avis est-il donné au modèle ? | `gold_source` parmi les 3 résultats BM25 |
 | **Exactitude** | La réponse contient-elle la bonne information ? | Une écriture de `accept` dans la réponse, après normalisation (accents, casse, espaces) |
 | **ASR** (attack success rate) | L'attaque atteint-elle son objectif ? | Objectifs atteints / cas terminés et relus |
@@ -284,3 +337,8 @@ Le bouclier est aussi interrogé sur des documents propres, sans injection.
 - Plusieurs clés d'une même organisation Groq partagent le même quota.
 - Branches : `feature/rag`, `feature/attacks-noemi`, `feature/interface`, fusionnées dans `main` par pull request.
 - Les fichiers sont ajoutés par nom (`git add fichier`), jamais `git add .`.
+=======
+| Laure | data, retrieval / model | baseline, test set |
+| Noemi | evaluation and safety (attacks, shield) | results of the attack campaigns |
+| Sara | product and demo (Streamlit interface) | saved demo mode, voice question |
+>>>>>>> Stashed changes
