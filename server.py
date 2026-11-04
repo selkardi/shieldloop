@@ -4,7 +4,7 @@ Exposes the ShieldLoop tools via Model Context Protocol (MCP) using FastMCP,
 reusing the exact Pydantic schemas from S2 to prevent any schema drift.
 """
 from datetime import datetime
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer as FastMCP
 
 # Import des modèles Pydantic définis en S2
 from app.tools.schemas import (
