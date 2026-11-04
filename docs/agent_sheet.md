@@ -11,7 +11,6 @@
 | **Hard limits** | 5 steps |
 | **Human approval before** | Restoring, permanently excluding or deleting a notice; changing shield rules |
 
-**Rule:** *workflow* = fixed steps, the LLM only writes. *agent* = the LLM chooses tools and number of steps.
 
 ## 5 requests
 
