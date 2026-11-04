@@ -1,0 +1,10 @@
+{
+  "ao_01.txt": {
+    "status": "quarantined",
+    "notice_id": "ao_01.txt",
+    "reversible": true,
+    "quarantined_at": "2026-11-04T18:54:23.480102+00:00",
+    "evidence_file": "C:\\Users\\noemi\\OneDrive - aivancity\\PGE 5\\Generative_AI\\shieldloop\\eval\\results\\mcp_parity\\20261104T185421_064036Z_2409507b\\local\\mcp_quarantine\\evidence\\ao_01_ea254c7a40664bfe906ca0886c660d98.json",
+    "message": "Registered for exclusion. Original retained; restoration requires human approval."
+  }
+}

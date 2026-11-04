@@ -4,4 +4,6 @@ python-dotenv
 streamlit
 ollama
 rank-bm25
+fastmcp>=2.10,<3
+pydantic>=2,<3
 # add: chromadb, rank_bm25, sentence-transformers (RAG) · peft, trl, datasets (LoRA)

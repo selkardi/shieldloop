@@ -1,0 +1,10 @@
+{
+  "ao_01.txt": {
+    "status": "quarantined",
+    "notice_id": "ao_01.txt",
+    "reversible": true,
+    "quarantined_at": "2026-11-04T19:33:55.544359+00:00",
+    "evidence_file": "/content/shieldloop_mcp_demo/data/mcp_quarantine/evidence/ao_01_062bb6bcc9254218b823c4dd1f01a416.json",
+    "message": "Registered for exclusion. Original retained; restoration requires human approval."
+  }
+}
