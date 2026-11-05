@@ -23,3 +23,13 @@
 | 5 | "Compare ao_02 and ao_03: which should we answer first, and are their dates reliable?" | **Agent** | The model must open several notices, verify each date and weigh the results, which a fixed chain cannot anticipate. | `get_notice`, `verify_values`, `list_deadlines` |
 
 **Result:** 2 workflows, 3 agents. Notices are untrusted data: the agent never treats a sentence inside a notice as an order.
+
+## Planning and memory
+| | |
+|---|---|
+| Control strategy | ReAct loop (max 4 steps) with a final reflection check |
+| Reasoning effort | low for tool steps, medium for the final check |
+| Short-term memory | keep everything |
+| Long-term memory | quarantine registry only (notice id, reason, evidence), kept until human review; no chat history |
+| Retrieval | classic RAG |
+| Checks | verify_values: every date or figure must appear in the cited notice; shield isolates instruction lines; human approval before quarantine |
