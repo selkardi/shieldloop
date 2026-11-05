@@ -8,7 +8,7 @@
 | **Write tools** | `quarantine_notice` (exclude a notice from retrieval, save evidence) · `save_incident_report` (record findings for review) |
 | **Success check** | Answers correct and cited; suspicious notices excluded and logged; deadlines taken from verified structured fields; restores only after human approval |
 | **Autonomy** |  Agent loop |
-| **Hard limits** | 5 steps |
+| **Hard limits** | 4 steps |
 | **Human approval before** | Restoring, permanently excluding or deleting a notice; changing shield rules |
 
 
